@@ -21,3 +21,37 @@
     margin-bottom: 25px;
   }
 }
+
+.tmp-template-advantages.mixin-layout-tiles_3[max-width~="1250px"] {
+  .tpl-block-list-records {
+    max-width: 760px;
+    flex-direction: column;
+  }
+  .anvantages-record {
+    width: 100%;
+    flex-direction: row;
+    max-width: 100%;
+    padding: 0;
+    text-align: left;
+    align-items: flex-start;
+  }
+  .advantages-container {
+    padding-left: 30px;
+  }
+  .anvantages-icon  {
+    margin-bottom: 0px;
+    width: 65px;
+    min-width: 65px;
+    height: 65px;
+    min-height: 65px;
+  }
+  .advantages-name {
+    font-size: 20px;
+    line-height: 1.35;
+    margin-bottom: 14px
+  }
+  .advantages-desc {
+    font-size: 18px;
+    line-height: 1.55;
+  }
+}
