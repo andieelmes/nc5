@@ -1,0 +1,23 @@
+.tmp-template-advantages.mixin-layout-tiles_3 {
+  .tpl-block-list-records {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+  }
+  .anvantages-record {
+    width: 33%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 400px;
+    padding: 0 20px;
+  }
+  .advantages-container {
+    padding-left: 0;
+  }
+  .anvantages-icon  {
+    margin-bottom: 25px;
+  }
+}

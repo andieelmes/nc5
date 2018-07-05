@@ -1,0 +1,13 @@
+@import "../components/reset";
+@import "../components/var";
+
+
+
+@import "../components/header/block";
+@import "../components/header/mixin_other";
+
+@import "../components/advantages/block";
+@import "../components/advantages/mixin_layout_columns";
+@import "../components/advantages/mixin_layout_tiles_2";
+@import "../components/advantages/mixin_layout_tiles_3";
+@import "../components/advantages/mixin_other";

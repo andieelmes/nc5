@@ -1,0 +1,34 @@
+{
+  "devDependencies": {
+    "browser-sync": "^2.18.11",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-changed": "^3.1.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-dependencies": "^0.1.1",
+    "gulp-jade": "^1.1.0",
+    "gulp-jade-find-affected": "^0.2.2",
+    "gulp-jade-inheritance": "^0.5.5",
+    "gulp-notify": "^2.2.0",
+    "gulp-pug": "^3.1.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-util": "^3.0.7",
+    "gulp-watch": "^4.3.10",
+    "jshint": "^2.9.4",
+    "pug": "^2.0.0-beta6"
+  },
+  "name": "net1",
+  "version": "1.0.0",
+  "description": "net1",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "css-element-queries": "^1.0.2",
+    "gulp": "^3.9.1",
+    "gulp-jade": "^1.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,39 @@
+.tmp-template-advantages {
+  margin: 0 auto;
+  padding: 100px 0;
+  .advantages-prefix {
+    max-width: 560px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 105px;
+  }
+  .tpl-block-list-records {
+    max-width: 760px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .anvantages-record {
+    display: flex;
+    margin-bottom: 65px;
+  }
+  .anvantages-icon {
+    
+    max-width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .advantages-container {
+    padding-left: 30px;
+  }
+  .advantages-name {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: #000000;
+  }
+  .advantages-desc {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #000000;
+  }
+}

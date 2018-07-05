@@ -1,0 +1,4 @@
+.tmp-template-advantages.mixin-layout-columns .tpl-block-list-records {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap; }
