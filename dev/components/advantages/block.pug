@@ -9,7 +9,7 @@ html(lang="en")
   body 
     -adv3 = [{'icon': 'https://static.tildacdn.com/tild3763-6461-4836-b261-353035633734/1.svg','name':'High Quality', 'desc': 'We are the leading firm by delivering quality and value to our clients. All our professionals have more than 5 years of legal experiences. We like what we do.'},{'icon': 'https://static.tildacdn.com/tild6630-3033-4237-a564-646431313432/2.svg','name':'Good Support', 'desc': 'Our managers are always ready to answer your questions. You can call us at the weekends and at night. Also you can visit our office for personal consultation. '},{'icon': 'https://static.tildacdn.com/tild3639-3963-4966-a466-626164333934/4.svg','name':'Individual Approach', 'desc': 'Our company works according to the principle of individual approach to every client. This method lets us to get success in problems of all levels.'},]
     -adv4 = [{'icon': 'https://static.tildacdn.com/tild3763-6461-4836-b261-353035633734/1.svg','name':'High Quality', 'desc': 'We are the leading firm by delivering quality and value to our clients. All our professionals have more than 5 years of legal experiences. We like what we do.'},{'icon': 'https://static.tildacdn.com/tild6630-3033-4237-a564-646431313432/2.svg','name':'Good Support', 'desc': 'Our managers are always ready to answer your questions. You can call us at the weekends and at night. Also you can visit our office for personal consultation. '},{'icon': 'https://static.tildacdn.com/tild3639-3963-4966-a466-626164333934/4.svg','name':'Individual Approach', 'desc': 'Our company works according to the principle of individual approach to every client. This method lets us to get success in problems of all levels.'},{'icon': 'https://static.tildacdn.com/tild3639-3963-4966-a466-626164333934/4.svg','name':'Individual Approach', 'desc': 'Our company works according to the principle of individual approach to every client. This method lets us to get success in problems of all levels.'},]
-    //advantages 1 column
+    p advantages 1 column
     section.tmp-template-advantages.mixin-other.mixin-layout-columns
       .advantages-prefix
         .tmp-template-header.tmp_header_align_center
@@ -22,7 +22,21 @@ html(lang="en")
             .advantages-container
               .advantages-name.tmp_anvantages-name_md=item.name
               .advantages-desc.tmp_anvantages-desc_sm=item.desc
-    //advantages 2 tiles
+    p узкая колонка в 500 пикселей
+    div(style="max-width:500px; margin: 0 auto")
+      section.tmp-template-advantages.mixin-other.mixin-layout-columns
+        .advantages-prefix
+          .tmp-template-header.tmp_header_align_center
+              h2.header2.tmp_header_margin_auto Why choose us?
+              h3.header3.tmp_header_margin_auto Everyday we work hard to make life of our clients better and happier
+        .tpl-block-list-records(data-record-number="3")
+          each item in adv3
+            .anvantages-record.tmp_anvantages-record_top
+              .anvantages-icon.tmp_anvantages-icon_sm(style="background-image: url('"+item.icon+"')")
+              .advantages-container
+                .advantages-name.tmp_anvantages-name_md=item.name
+                .advantages-desc.tmp_anvantages-desc_sm=item.desc
+    p advantages 2 tiles
     section.tmp-template-advantages.mixin-other.mixin-layout-tiles_2
       .advantages-prefix
         .tmp-template-header.tmp_header_align_center
@@ -35,7 +49,7 @@ html(lang="en")
             .advantages-container
               .advantages-name.tmp_anvantages-name_md=item.name
               .advantages-desc.tmp_anvantages-desc_sm=item.desc
-    //advantages 3 tiles
+    p advantages 3 tiles
     section.tmp-template-advantages.mixin-other.mixin-layout-tiles_3
       .advantages-prefix
         .tmp-template-header.tmp_header_align_center
@@ -48,7 +62,34 @@ html(lang="en")
             .advantages-container
               .advantages-name.tmp_anvantages-name_lr=item.name
               .advantages-desc.tmp_anvantages-desc_xs=item.desc
-    
+    p узкая колонка в 600 пикселей
+    div(style="max-width:600px; margin: 0 auto")
+      section.tmp-template-advantages.mixin-other.mixin-layout-tiles_3
+        .advantages-prefix
+          .tmp-template-header.tmp_header_align_center
+              h2.header2.tmp_header_margin_auto Why choose us?
+              h3.header3.tmp_header_margin_auto Everyday we work hard to make life of our clients better and happier
+        .tpl-block-list-records(data-record-number="3")
+          each item in adv3
+            .anvantages-record.tmp_anvantages-record_top
+              .anvantages-icon.tmp_anvantages-icon_lr(style="background-image: url('"+item.icon+"')")
+              .advantages-container
+                .advantages-name.tmp_anvantages-name_lr=item.name
+                .advantages-desc.tmp_anvantages-desc_xs=item.desc
+    p узкая колонка в 1050 пикселей
+    div(style="max-width:1050px; margin: 0 auto")
+      section.tmp-template-advantages.mixin-other.mixin-layout-tiles_3
+        .advantages-prefix
+          .tmp-template-header.tmp_header_align_center
+              h2.header2.tmp_header_margin_auto Why choose us?
+              h3.header3.tmp_header_margin_auto Everyday we work hard to make life of our clients better and happier
+        .tpl-block-list-records(data-record-number="3")
+          each item in adv3
+            .anvantages-record.tmp_anvantages-record_top
+              .anvantages-icon.tmp_anvantages-icon_lr(style="background-image: url('"+item.icon+"')")
+              .advantages-container
+                .advantages-name.tmp_anvantages-name_lr=item.name
+                .advantages-desc.tmp_anvantages-desc_xs=item.desc
     script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js")
     script(src="../../css-element-queries/ResizeSensor.js")
     script(src="../../css-element-queries/ElementQueries.js")
