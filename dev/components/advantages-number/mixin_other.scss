@@ -1,0 +1,35 @@
+.tmp-template-advantages-number.tmp_number_align_left {
+  .tpl-block-list-records {
+    .anvantages-record {
+      align-items: flex-start;
+      text-align: left;
+    }
+  }
+}
+
+
+.tmp-template-advantages-number.tmp_no_separator {
+  .tpl-block-list-records {
+    .advantages-container {
+      border-top: 0;
+      padding-top: 0;
+    }
+    
+  }
+}
+
+
+.tmp-template-advantages-number.tmp_bg_no_contrast {
+  background-color: #F7F7F7;
+}
+
+.tmp-template-advantages-number.tmp_bg_contrast {
+  background-image: url('https://images.unsplash.com/photo-1531067592137-18d3517e639a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5e32975faad501f14dbfda4f98a10d0f&auto=format&fit=crop&w=1500&q=80');
+  background-size: cover;
+  background-repeat: no-repeat;
+  .anvantages-record, .tmp-template-header {
+    color: white;
+  }
+}
+
+

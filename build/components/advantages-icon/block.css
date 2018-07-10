@@ -17,7 +17,8 @@
     .tmp-template-advantages .tpl-block-list-records .anvantages-record {
       display: flex;
       margin-bottom: 65px;
-      align-items: flex-start; }
+      align-items: flex-start;
+      color: #000000; }
     .tmp-template-advantages .tpl-block-list-records .anvantages-icon {
       max-width: 100%;
       background-size: cover;
@@ -32,13 +33,11 @@
     .tmp-template-advantages .tpl-block-list-records .advantages-name {
       font-family: 'Roboto', sans-serif;
       font-weight: 600;
-      color: #000000;
       font-size: 20px;
       line-height: 1.35;
       margin-bottom: 14px; }
     .tmp-template-advantages .tpl-block-list-records .advantages-desc {
       font-family: 'Roboto', sans-serif;
       font-weight: 300;
-      color: #000000;
       font-size: 18px;
       line-height: 1.55; }
