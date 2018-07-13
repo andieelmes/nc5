@@ -1,6 +1,7 @@
 .tmp-template-advantages-number {
   margin: 0 auto;
-  padding: 100px 40px; }
+  padding: 100px 40px;
+  background-color: var(--tpl-color-background-main); }
   .tmp-template-advantages-number .advantages-prefix {
     max-width: 560px;
     margin-left: auto;
@@ -20,9 +21,9 @@
       align-items: center;
       flex-direction: column;
       text-align: center;
-      color: #000000; }
+      color: var(--tpl-color-foreground-main); }
     .tmp-template-advantages-number .tpl-block-list-records .anvantages-number {
-      font-family: 'Roboto', sans-serif;
+      font-family: var(--tpl-font-family-common);
       font-weight: 400;
       font-size: 40px;
       line-height: 1.35;
@@ -32,13 +33,13 @@
       border-top: 1px solid gray;
       padding-top: 14px; }
     .tmp-template-advantages-number .tpl-block-list-records .advantages-name {
-      font-family: 'Roboto', sans-serif;
+      font-family: var(--tpl-font-family-common);
       font-weight: 600;
       font-size: 20px;
       line-height: 1.35;
       margin-bottom: 14px; }
     .tmp-template-advantages-number .tpl-block-list-records .advantages-desc {
-      font-family: 'Roboto', sans-serif;
+      font-family: var(--tpl-font-family-common);
       font-weight: 300;
       font-size: 18px;
       line-height: 1.55; }

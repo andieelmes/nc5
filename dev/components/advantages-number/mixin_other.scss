@@ -20,7 +20,7 @@
 
 
 .tmp-template-advantages-number.tmp_bg_no_contrast {
-  background-color: #F7F7F7;
+  background-color: var(--tpl-color-background-accent);
 }
 
 .tmp-template-advantages-number.tmp_bg_contrast {
@@ -28,7 +28,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   .anvantages-record, .tmp-template-header {
-    color: white;
+    color: var(--tpl-color-foreground-accent);
   }
 }
 

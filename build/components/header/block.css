@@ -2,22 +2,22 @@
   color: #000000; }
 
 h2 {
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--tpl-font-family-common);
   font-weight: 600; }
 
 h3 {
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--tpl-font-family-common);
   font-weight: 300; }
 
 .header2 {
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--tpl-font-family-common);
   font-weight: 600;
   font-size: 42px;
   line-height: 1.23;
   margin-bottom: 40px; }
 
 .header3 {
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--tpl-font-family-common);
   font-weight: 300;
   font-size: 24px;
   line-height: 1.50;
