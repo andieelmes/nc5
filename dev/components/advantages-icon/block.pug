@@ -6,9 +6,9 @@ html(lang="en")
     link(rel="stylesheet" type="text/css" href="../../css/main.css?v1")
     meta(charset="UTF-8")
     meta(name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0")
-  body 
-    -adv3 = [{'icon': 'https://static.tildacdn.com/tild3763-6461-4836-b261-353035633734/1.svg','name':'High Quality', 'desc': 'We are the leading firm by delivering quality and value to our clients. All our professionals have more than 5 years of legal experiences. We like what we do.'},{'icon': 'https://static.tildacdn.com/tild6630-3033-4237-a564-646431313432/2.svg','name':'Good Support', 'desc': 'Our managers are always ready to answer your questions. You can call us at the weekends and at night. Also you can visit our office for personal consultation. '},{'icon': 'https://static.tildacdn.com/tild3639-3963-4966-a466-626164333934/4.svg','name':'Individual Approach', 'desc': 'Our company works according to the principle of individual approach to every client. This method lets us to get success in problems of all levels.'},]
-    -adv4 = [{'icon': 'https://static.tildacdn.com/tild3763-6461-4836-b261-353035633734/1.svg','name':'High Quality', 'desc': 'We are the leading firm by delivering quality and value to our clients. All our professionals have more than 5 years of legal experiences. We like what we do.'},{'icon': 'https://static.tildacdn.com/tild6630-3033-4237-a564-646431313432/2.svg','name':'Good Support', 'desc': 'Our managers are always ready to answer your questions. You can call us at the weekends and at night. Also you can visit our office for personal consultation. '},{'icon': 'https://static.tildacdn.com/tild3639-3963-4966-a466-626164333934/4.svg','name':'Individual Approach', 'desc': 'Our company works according to the principle of individual approach to every client. This method lets us to get success in problems of all levels.'},{'icon': 'https://static.tildacdn.com/tild3639-3963-4966-a466-626164333934/4.svg','name':'Individual Approach', 'desc': 'Our company works according to the principle of individual approach to every client. This method lets us to get success in problems of all levels.'},]
+  body
+    -adv3 = [{'icon': '1','name':'High Quality', 'desc': 'We are the leading firm by delivering quality and value to our clients. All our professionals have more than 5 years of legal experiences. We like what we do.'},{'icon': '2','name':'Good Support', 'desc': 'Our managers are always ready to answer your questions. You can call us at the weekends and at night. Also you can visit our office for personal consultation. '},{'icon': '1','name':'Individual Approach', 'desc': 'Our company works according to the principle of individual approach to every client. This method lets us to get success in problems of all levels.'},]
+    -adv4 = [{'icon': '1','name':'High Quality', 'desc': 'We are the leading firm by delivering quality and value to our clients. All our professionals have more than 5 years of legal experiences. We like what we do.'},{'icon': '2','name':'Good Support', 'desc': 'Our managers are always ready to answer your questions. You can call us at the weekends and at night. Also you can visit our office for personal consultation. '},{'icon': '1','name':'Individual Approach', 'desc': 'Our company works according to the principle of individual approach to every client. This method lets us to get success in problems of all levels.'},{'icon': '1','name':'Individual Approach', 'desc': 'Our company works according to the principle of individual approach to every client. This method lets us to get success in problems of all levels.'},]
     p advantages 1 column
     section.tmp-template-advantages.mixin-layout-columns
       .advantages-prefix
@@ -18,7 +18,13 @@ html(lang="en")
       .tpl-block-list-records(data-record-number="3")
         each item in adv3
           .anvantages-record
-            .anvantages-icon(style="background-image: url('"+item.icon+"')")
+            .anvantages-icon
+              if (item.icon == 1) 
+                include icons/1.svg
+              else if (item.icon == 2) 
+                include icons/2.svg
+              else
+                include icons/1.svg
             .advantages-container
               .advantages-name=item.name
               .advantages-desc=item.desc
@@ -32,7 +38,13 @@ html(lang="en")
         .tpl-block-list-records(data-record-number="3")
           each item in adv3
             .anvantages-record
-              .anvantages-icon(style="background-image: url('"+item.icon+"')")
+              .anvantages-icon
+                if (item.icon == 1) 
+                  include icons/1.svg
+                else if (item.icon == 2) 
+                  include icons/2.svg
+                else
+                  include icons/1.svg
               .advantages-container
                 .advantages-name=item.name
                 .advantages-desc=item.desc
@@ -45,10 +57,56 @@ html(lang="en")
       .tpl-block-list-records(data-record-number="4")
         each item in adv4
           .anvantages-record
-            .anvantages-icon(style="background-image: url('"+item.icon+"')")
+            .anvantages-icon
+              if (item.icon == 1) 
+                include icons/1.svg
+              else if (item.icon == 2) 
+                include icons/2.svg
+              else
+                include icons/1.svg
             .advantages-container
               .advantages-name=item.name
               .advantages-desc=item.desc
+    p узкая колонка в 1050 пикселей
+    div(style="max-width:1050px; margin: 0 auto")
+      section.tmp-template-advantages.mixin-layout-tiles_2.tmp_icon_right
+        .advantages-prefix
+          .tmp-template-header
+              h2.header2 Why choose us?
+              h3.header3 Everyday we work hard to make life of our clients better and happier
+        .tpl-block-list-records(data-record-number="4")
+          each item in adv4
+            .anvantages-record
+              .anvantages-icon
+                if (item.icon == 1) 
+                  include icons/1.svg
+                else if (item.icon == 2) 
+                  include icons/2.svg
+                else
+                  include icons/1.svg
+              .advantages-container
+                .advantages-name=item.name
+                .advantages-desc=item.desc
+    p узкая колонка в 600 пикселей
+    div(style="max-width:600px; margin: 0 auto")
+      section.tmp-template-advantages.mixin-layout-tiles_2.tmp_icon_right
+        .advantages-prefix
+          .tmp-template-header
+              h2.header2 Why choose us?
+              h3.header3 Everyday we work hard to make life of our clients better and happier
+        .tpl-block-list-records(data-record-number="4")
+          each item in adv4
+            .anvantages-record
+              .anvantages-icon
+                if (item.icon == 1) 
+                  include icons/1.svg
+                else if (item.icon == 2) 
+                  include icons/2.svg
+                else
+                  include icons/1.svg
+              .advantages-container
+                .advantages-name=item.name
+                .advantages-desc=item.desc
     p advantages 3 tiles
     section.tmp-template-advantages.mixin-layout-tiles_3
       .advantages-prefix
@@ -58,7 +116,13 @@ html(lang="en")
       .tpl-block-list-records(data-record-number="3")
         each item in adv3
           .anvantages-record
-            .anvantages-icon(style="background-image: url('"+item.icon+"')")
+            .anvantages-icon
+              if (item.icon == 1) 
+                include icons/1.svg
+              else if (item.icon == 2) 
+                include icons/2.svg
+              else
+                include icons/1.svg
             .advantages-container
               .advantages-name=item.name
               .advantages-desc=item.desc
@@ -72,7 +136,13 @@ html(lang="en")
         .tpl-block-list-records(data-record-number="3")
           each item in adv3
             .anvantages-record
-              .anvantages-icon(style="background-image: url('"+item.icon+"')")
+              .anvantages-icon
+                if (item.icon == 1) 
+                  include icons/1.svg
+                else if (item.icon == 2) 
+                  include icons/2.svg
+                else
+                  include icons/1.svg
               .advantages-container
                 .advantages-name=item.name
                 .advantages-desc=item.desc
@@ -86,7 +156,13 @@ html(lang="en")
         .tpl-block-list-records(data-record-number="3")
           each item in adv3
             .anvantages-record
-              .anvantages-icon(style="background-image: url('"+item.icon+"')")
+              .anvantages-icon 
+                if (item.icon == 1) 
+                  include icons/1.svg
+                else if (item.icon == 2) 
+                  include icons/2.svg
+                else
+                  include icons/1.svg
               .advantages-container
                 .advantages-name=item.name
                 .advantages-desc=item.desc
