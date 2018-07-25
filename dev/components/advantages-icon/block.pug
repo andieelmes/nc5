@@ -126,26 +126,7 @@ html(lang="en")
             .advantages-container
               .advantages-name=item.name
               .advantages-desc=item.desc
-    p узкая колонка в 600 пикселей
-    div(style="max-width:600px; margin: 0 auto")
-      section.tmp-template-advantages.mixin-layout-tiles_3
-        .advantages-prefix
-          .tmp-template-header
-            h2.header2 Why choose us?
-            h3.header3 Everyday we work hard to make life of our clients better and happier
-        .tpl-block-list-records(data-record-number="3")
-          each item in adv3
-            .anvantages-record
-              .anvantages-icon
-                if (item.icon == 1) 
-                  include icons/1.svg
-                else if (item.icon == 2) 
-                  include icons/2.svg
-                else
-                  include icons/1.svg
-              .advantages-container
-                .advantages-name=item.name
-                .advantages-desc=item.desc
+    
     p узкая колонка в 1050 пикселей
     div(style="max-width:1050px; margin: 0 auto")
       section.tmp-template-advantages.mixin-layout-tiles_3
@@ -157,6 +138,26 @@ html(lang="en")
           each item in adv3
             .anvantages-record
               .anvantages-icon 
+                if (item.icon == 1) 
+                  include icons/1.svg
+                else if (item.icon == 2) 
+                  include icons/2.svg
+                else
+                  include icons/1.svg
+              .advantages-container
+                .advantages-name=item.name
+                .advantages-desc=item.desc
+    p узкая колонка в 600 пикселей
+    div(style="max-width:600px; margin: 0 auto")
+      section.tmp-template-advantages.mixin-layout-tiles_3
+        .advantages-prefix
+          .tmp-template-header
+            h2.header2 Why choose us?
+            h3.header3 Everyday we work hard to make life of our clients better and happier
+        .tpl-block-list-records(data-record-number="3")
+          each item in adv3
+            .anvantages-record
+              .anvantages-icon
                 if (item.icon == 1) 
                   include icons/1.svg
                 else if (item.icon == 2) 

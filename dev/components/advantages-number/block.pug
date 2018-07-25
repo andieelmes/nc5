@@ -35,6 +35,19 @@ html(lang="en")
               .anvantages-number=item.number
               .advantages-container             
                 .advantages-desc=item.desc
+    p узкая колонка в 600 пикселей
+    div(style="max-width:600px; margin: 0 auto")
+      section.tmp-template-advantages-number.mixin-layout-tiles_4.tmp_number_align_left
+        .advantages-prefix
+          .tmp-template-header
+              h2.header2 About our course
+              h3.header3 Everyday we work hard to make life of our clients better and happier
+        .tpl-block-list-records(data-record-number="3")
+          each item in adv4
+            .anvantages-record
+              .anvantages-number=item.number
+              .advantages-container             
+                .advantages-desc=item.desc
     p advantages 3 tiles no separator
     section.tmp-template-advantages-number.mixin-layout-tiles_3.tmp_no_separator
       .advantages-prefix
@@ -71,19 +84,7 @@ html(lang="en")
             .anvantages-number=item.number
             .advantages-container             
               .advantages-desc=item.desc
-    p узкая колонка в 600 пикселей
-    div(style="max-width:600px; margin: 0 auto")
-      section.tmp-template-advantages-number.mixin-layout-tiles_3
-        .advantages-prefix
-          .tmp-template-header
-            h2.header2 About our course
-            h3.header3 Everyday we work hard to make life of our clients better and happier
-        .tpl-block-list-records(data-record-number="3")
-          each item in adv3
-            .anvantages-record
-              .anvantages-number=item.number
-              .advantages-container                
-                .advantages-desc=item.desc
+
     p узкая колонка в 1050 пикселей
     div(style="max-width:1050px; margin: 0 auto")
       section.tmp-template-advantages-number.mixin-layout-tiles_3
@@ -96,7 +97,19 @@ html(lang="en")
             .anvantages-record
               .anvantages-number=item.number
               .advantages-container
-                
+                .advantages-desc=item.desc
+    p узкая колонка в 600 пикселей
+    div(style="max-width:600px; margin: 0 auto")
+      section.tmp-template-advantages-number.mixin-layout-tiles_3
+        .advantages-prefix
+          .tmp-template-header
+            h2.header2 About our course
+            h3.header3 Everyday we work hard to make life of our clients better and happier
+        .tpl-block-list-records(data-record-number="3")
+          each item in adv3
+            .anvantages-record
+              .anvantages-number=item.number
+              .advantages-container                
                 .advantages-desc=item.desc
     script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js")
     script(src="../../css-element-queries/ResizeSensor.js")

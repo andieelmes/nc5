@@ -24,17 +24,9 @@
 
     .anvantages-record {
       display: flex;
-      margin-bottom: 65px;
       align-items: flex-start;
       width: 100%;
       max-width: 760px;
-      padding: 0;
-    }
-    .advantages-container {
-      padding-left: 30px;
-    }
-    .anvantages-icon  {
-      margin-bottom: 0;
     }
   }
   
@@ -50,15 +42,7 @@
     .anvantages-record {
       flex-direction: column;
       align-items: center;
-      text-align: center;
       width: 100%;
-    }
-    .advantages-container {
-      padding-left: 0;
-      padding-right: 0;
-    }
-    .anvantages-icon  {
-      margin-bottom: 25px;
     }
   }
 } 
