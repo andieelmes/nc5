@@ -1,5 +1,5 @@
 .tmp-template-advantages.mixin-layout-columns {
-  .tpl-block-list-records {
+  .tpl-block-list-objects {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -7,13 +7,13 @@
 }
 
 .tmp-template-advantages, .tmp-template-advantages.mixin-layout-columns {
-  .tpl-block-list-records[max-width~="500px"] {
+  .tpl-block-list-objects[max-width~="500px"] {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     padding: 0 20px;
-    .anvantages-record {
+    .anvantages-object {
       flex-direction: column;
       align-items: center;
       width: 100%;

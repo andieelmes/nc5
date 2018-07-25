@@ -8,37 +8,37 @@
     margin-right: auto;
     margin-bottom: 105px;
     text-align: center; }
-  .tmp-template-advantages-number .tpl-block-list-records {
+  .tmp-template-advantages-number .tpl-block-list-objects {
     max-width: 760px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap; }
-    .tmp-template-advantages-number .tpl-block-list-records .anvantages-record {
+    .tmp-template-advantages-number .tpl-block-list-objects .anvantages-object {
       display: flex;
       margin-bottom: 65px;
       align-items: center;
       flex-direction: column;
       text-align: center;
       color: var(--tpl-color-foreground-main); }
-    .tmp-template-advantages-number .tpl-block-list-records .anvantages-number {
+    .tmp-template-advantages-number .tpl-block-list-objects .anvantages-number {
       font-family: var(--tpl-font-family-common);
       font-weight: 400;
       font-size: 40px;
       line-height: 1.35;
       margin-bottom: 14px;
       text-align: center; }
-    .tmp-template-advantages-number .tpl-block-list-records .advantages-container {
+    .tmp-template-advantages-number .tpl-block-list-objects .advantages-container {
       border-top: 1px solid gray;
       padding-top: 14px; }
-    .tmp-template-advantages-number .tpl-block-list-records .advantages-name {
+    .tmp-template-advantages-number .tpl-block-list-objects .advantages-name {
       font-family: var(--tpl-font-family-common);
       font-weight: 600;
       font-size: 20px;
       line-height: 1.35;
       margin-bottom: 14px; }
-    .tmp-template-advantages-number .tpl-block-list-records .advantages-desc {
+    .tmp-template-advantages-number .tpl-block-list-objects .advantages-desc {
       font-family: var(--tpl-font-family-common);
       font-weight: 300;
       font-size: 18px;

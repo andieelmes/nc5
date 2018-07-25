@@ -8,20 +8,20 @@
     margin-right: auto;
     margin-bottom: 105px;
     text-align: center; }
-  .tmp-template-advantages .tpl-block-list-records {
+  .tmp-template-advantages .tpl-block-list-objects {
     max-width: 760px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap; }
-    .tmp-template-advantages .tpl-block-list-records .anvantages-record {
+    .tmp-template-advantages .tpl-block-list-objects .anvantages-object {
       display: flex;
       margin-bottom: 65px;
       align-items: flex-start;
       color: #000000;
       padding: 0 20px; }
-    .tmp-template-advantages .tpl-block-list-records .anvantages-icon {
+    .tmp-template-advantages .tpl-block-list-objects .anvantages-icon {
       max-width: 100%;
       background-size: cover;
       background-repeat: no-repeat;
@@ -32,13 +32,13 @@
       min-height: 65px;
       margin-right: 30px;
       margin-left: 30px; }
-    .tmp-template-advantages .tpl-block-list-records .advantages-name {
+    .tmp-template-advantages .tpl-block-list-objects .advantages-name {
       font-family: var(--tpl-font-family-common);
       font-weight: 600;
       font-size: 20px;
       line-height: 1.35;
       margin-bottom: 14px; }
-    .tmp-template-advantages .tpl-block-list-records .advantages-desc {
+    .tmp-template-advantages .tpl-block-list-objects .advantages-desc {
       font-family: var(--tpl-font-family-common);
       font-weight: 300;
       font-size: 18px;

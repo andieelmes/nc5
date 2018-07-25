@@ -1,31 +1,31 @@
-.tmp-template-advantages.mixin-layout-tiles_3 .tpl-block-list-records {
+.tmp-template-advantages.mixin-layout-tiles_3 .tpl-block-list-objects {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  max-width: 1300px; }
+  max-width: 100%; }
 
-.tmp-template-advantages.mixin-layout-tiles_3 .anvantages-record {
+.tmp-template-advantages.mixin-layout-tiles_3 .anvantages-object {
   width: 33%;
   max-width: 500px; }
 
-.tmp-template-advantages.mixin-layout-tiles_3 .tpl-block-list-records[max-width~="1050px"] {
+.tmp-template-advantages.mixin-layout-tiles_3 .tpl-block-list-objects[max-width~="1050px"] {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center; }
-  .tmp-template-advantages.mixin-layout-tiles_3 .tpl-block-list-records[max-width~="1050px"] .anvantages-record {
+  .tmp-template-advantages.mixin-layout-tiles_3 .tpl-block-list-objects[max-width~="1050px"] .anvantages-object {
     width: 33%;
     flex-direction: column;
     align-items: center;
     max-width: 300px; }
 
-.tmp-template-advantages.mixin-layout-tiles_3 .tpl-block-list-records[max-width~="600px"] {
+.tmp-template-advantages.mixin-layout-tiles_3 .tpl-block-list-objects[max-width~="600px"] {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center; }
-  .tmp-template-advantages.mixin-layout-tiles_3 .tpl-block-list-records[max-width~="600px"] .anvantages-record {
+  .tmp-template-advantages.mixin-layout-tiles_3 .tpl-block-list-objects[max-width~="600px"] .anvantages-object {
     flex-direction: column;
     align-items: center;
     width: 100%;

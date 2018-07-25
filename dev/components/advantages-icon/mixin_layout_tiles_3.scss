@@ -1,12 +1,12 @@
 .tmp-template-advantages.mixin-layout-tiles_3 {
-  .tpl-block-list-records {
+  .tpl-block-list-objects {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    max-width: 1300px;
+    max-width: 100%;
   }
-  .anvantages-record {
+  .anvantages-object {
     width: 33%;
     max-width: 500px;
   }
@@ -14,12 +14,12 @@
 
 
 .tmp-template-advantages.mixin-layout-tiles_3 {
-  .tpl-block-list-records[max-width~="1050px"] {
+  .tpl-block-list-objects[max-width~="1050px"] {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    .anvantages-record {
+    .anvantages-object {
       width: 33%;
       flex-direction: column;
       align-items: center;
@@ -31,12 +31,12 @@
 
 
 .tmp-template-advantages.mixin-layout-tiles_3 {
-  .tpl-block-list-records[max-width~="600px"] {
+  .tpl-block-list-objects[max-width~="600px"] {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    .anvantages-record {
+    .anvantages-object {
       flex-direction: column;
       align-items: center;
       width: 100%;
