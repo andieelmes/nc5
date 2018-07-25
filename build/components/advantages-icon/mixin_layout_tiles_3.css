@@ -28,4 +28,5 @@
   .tmp-template-advantages.mixin-layout-tiles_3 .tpl-block-list-records[max-width~="600px"] .anvantages-record {
     flex-direction: column;
     align-items: center;
-    width: 100%; }
+    width: 100%;
+    max-width: 100%; }

@@ -409,7 +409,8 @@ h3 {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    width: 100%; }
+    width: 100%;
+    max-width: 100%; }
 
 .tmp-template-advantages.tmp_icon_right .tpl-block-list-records .anvantages-record {
   -webkit-box-orient: horizontal;
