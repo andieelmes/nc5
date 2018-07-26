@@ -3,11 +3,10 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  max-width: 1200px; }
+  max-width: 1300px; }
 
 .tmp-template-advantages-number.mixin-layout-tiles_4 .advantages-object {
   width: 25%;
-  max-width: 300px;
   padding: 0 20px; }
 
 .tmp-template-advantages-number.mixin-layout-tiles_4 .tpl-block-list-objects[max-width~="1050px"] {

@@ -399,7 +399,7 @@ h3 {
 
 .tmp-template-advantages-number {
   margin: 0 auto;
-  padding: 100px 40px;
+  padding: 100px 20px;
   background-color: var(--tpl-color-background-main); }
   .tmp-template-advantages-number .advantages-prefix {
     max-width: 560px;
@@ -530,11 +530,10 @@ h3 {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  max-width: 1200px; }
+  max-width: 1300px; }
 
 .tmp-template-advantages-number.mixin-layout-tiles_4 .advantages-object {
   width: 25%;
-  max-width: 300px;
   padding: 0 20px; }
 
 .tmp-template-advantages-number.mixin-layout-tiles_4 .tpl-block-list-objects[max-width~="1050px"] {
