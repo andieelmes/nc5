@@ -1,40 +1,14 @@
-.tmp-template-advantages .tpl-block-list-objects[max-width~="1050px"] {
-  .anvantages-object {
-    margin-bottom: 65px;
-  }
-  .anvantages-icon  {
-    margin-bottom: 25px;
-  }
-}
 
-.tmp-template-advantages .tpl-block-list-objects[max-width~="600px"] {
-  .anvantages-object {
-    text-align: center;
-  }
-  .advantages-container {
-    padding-left: 0;
-    padding-right: 0;
-  }
-  .anvantages-icon  {
-    margin-bottom: 25px;
-  }
-}
-
-
-.tmp-template-advantages .tpl-block-list-objects[max-width~="500px"] {
-  .anvantages-object {
-    text-align: center;
-  }
-  .advantages-container {
-    padding-left: 0;
-  }
-  .anvantages-icon  {
-    margin-bottom: 25px;
-  }
-}
 
 .tmp-template-advantages .tpl-block-list-objects {
-  .anvantages-object[max-width~="300px"] {
+  .advantages-object[max-width~="400px"] {
     text-align: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+    .advantages-icon  {
+        margin-bottom: 25px;
+    }
   }
 }

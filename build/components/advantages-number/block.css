@@ -15,14 +15,14 @@
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap; }
-    .tmp-template-advantages-number .tpl-block-list-objects .anvantages-object {
+    .tmp-template-advantages-number .tpl-block-list-objects .advantages-object {
       display: flex;
       margin-bottom: 65px;
       align-items: center;
       flex-direction: column;
       text-align: center;
       color: var(--tpl-color-foreground-main); }
-    .tmp-template-advantages-number .tpl-block-list-objects .anvantages-number {
+    .tmp-template-advantages-number .tpl-block-list-objects .advantages-number {
       font-family: var(--tpl-font-family-common);
       font-weight: 400;
       font-size: 40px;

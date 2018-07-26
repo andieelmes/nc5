@@ -1,6 +1,6 @@
 .tmp-template-advantages {
   margin: 0 auto;
-  padding: 100px 40px;
+  padding: 100px 20px;
   background-color: var(--tpl-color-background-main); }
   .tmp-template-advantages .advantages-prefix {
     max-width: 560px;
@@ -15,13 +15,13 @@
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap; }
-    .tmp-template-advantages .tpl-block-list-objects .anvantages-object {
+    .tmp-template-advantages .tpl-block-list-objects .advantages-object {
       display: flex;
       margin-bottom: 65px;
       align-items: flex-start;
       color: #000000;
       padding: 0 20px; }
-    .tmp-template-advantages .tpl-block-list-objects .anvantages-icon {
+    .tmp-template-advantages .tpl-block-list-objects .advantages-icon {
       max-width: 100%;
       background-size: cover;
       background-repeat: no-repeat;

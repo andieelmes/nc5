@@ -5,7 +5,7 @@
     flex-wrap: wrap;
     justify-content: center;
     max-width: 1200px;
-    .anvantages-object {
+    .advantages-object {
       width: 50%;
       max-width: 600px;
       padding: 0 20px;
@@ -22,9 +22,8 @@
     flex-direction: column;
     flex-wrap: nowrap;
 
-    .anvantages-object {
+    .advantages-object {
       display: flex;
-      align-items: flex-start;
       width: 100%;
       max-width: 760px;
     }
@@ -39,9 +38,7 @@
     flex-wrap: wrap;
     justify-content: center;
     padding: 0 20px;
-    .anvantages-object {
-      flex-direction: column;
-      align-items: center;
+    .advantages-object {
       width: 100%;
     }
   }

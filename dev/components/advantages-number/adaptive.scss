@@ -1,25 +1,14 @@
 
-.tmp-template-advantages-number .tpl-block-list-objects[max-width~="1050px"] {
-  .advantages-container {
-    padding-left: 0;
-  }
-  .anvantages-icon  {
-    margin-bottom: 25px;
-  }
-  .anvantages-object {
+.tmp-template-advantages-number .tpl-block-list-objects {
+  .advantages-object[max-width~="300px"] {
     text-align: center;
     padding: 0 20px;
-  }
-}
-
-.tmp-template-advantages-number .tpl-block-list-objects[max-width~="600px"] {
-  .advantages-container {
-    padding-left: 0;
-  }
-  .anvantages-icon  {
-    margin-bottom: 25px;
-  }
-  .anvantages-object {
-    text-align: center;
+    align-items: center;
+    .advantages-container {
+      padding-left: 0;
+    }
+    .advantages-icon  {
+      margin-bottom: 25px;
+    }
   }
 }

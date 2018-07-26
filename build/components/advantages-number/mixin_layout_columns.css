@@ -9,12 +9,12 @@
   flex-wrap: wrap;
   justify-content: center;
   padding: 0 20px; }
-  .tmp-template-advantages-number .tpl-block-list-records[max-width~="500px"] .anvantages-record, .tmp-template-advantages-number.mixin-layout-columns .tpl-block-list-records[max-width~="500px"] .anvantages-record {
+  .tmp-template-advantages-number .tpl-block-list-records[max-width~="500px"] .advantages-record, .tmp-template-advantages-number.mixin-layout-columns .tpl-block-list-records[max-width~="500px"] .advantages-record {
     flex-direction: column;
     align-items: center;
     text-align: center;
     width: 100%; }
   .tmp-template-advantages-number .tpl-block-list-records[max-width~="500px"] .advantages-container, .tmp-template-advantages-number.mixin-layout-columns .tpl-block-list-records[max-width~="500px"] .advantages-container {
     padding-left: 0; }
-  .tmp-template-advantages-number .tpl-block-list-records[max-width~="500px"] .anvantages-icon, .tmp-template-advantages-number.mixin-layout-columns .tpl-block-list-records[max-width~="500px"] .anvantages-icon {
+  .tmp-template-advantages-number .tpl-block-list-records[max-width~="500px"] .advantages-icon, .tmp-template-advantages-number.mixin-layout-columns .tpl-block-list-records[max-width~="500px"] .advantages-icon {
     margin-bottom: 25px; }

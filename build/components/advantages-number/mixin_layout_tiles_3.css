@@ -5,7 +5,7 @@
   justify-content: center;
   max-width: 1200px; }
 
-.tmp-template-advantages-number.mixin-layout-tiles_3 .anvantages-object {
+.tmp-template-advantages-number.mixin-layout-tiles_3 .advantages-object {
   width: 33%;
   max-width: 500px;
   padding: 0 20px; }
@@ -15,11 +15,9 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center; }
-  .tmp-template-advantages-number.mixin-layout-tiles_3 .tpl-block-list-objects[max-width~="1050px"] .anvantages-object {
+  .tmp-template-advantages-number.mixin-layout-tiles_3 .tpl-block-list-objects[max-width~="1050px"] .advantages-object {
     width: 33%;
-    flex-direction: column;
-    align-items: center;
-    max-width: 300px; }
+    flex-direction: column; }
 
 .tmp-template-advantages-number.mixin-layout-tiles_3 .tpl-block-list-objects[max-width~="600px"] {
   display: flex;
@@ -27,7 +25,6 @@
   flex-wrap: wrap;
   justify-content: center;
   padding: 0 20px; }
-  .tmp-template-advantages-number.mixin-layout-tiles_3 .tpl-block-list-objects[max-width~="600px"] .anvantages-object {
+  .tmp-template-advantages-number.mixin-layout-tiles_3 .tpl-block-list-objects[max-width~="600px"] .advantages-object {
     flex-direction: column;
-    align-items: center;
     width: 100%; }
