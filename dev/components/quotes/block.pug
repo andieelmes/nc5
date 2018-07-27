@@ -1,0 +1,109 @@
+doctype html
+html(lang="en")
+  head
+    title Advantages
+    link(href="https://fonts.googleapis.com/css?family=Roboto:300,400,600,700&amp;subset=cyrillic-ext" rel="stylesheet")
+    link(rel="stylesheet" type="text/css" href="../../css/main.css?v1")
+    meta(charset="UTF-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0")
+  body
+    -quote = [{'name':'Amanda Plummer', 'caption':'Actress', 'desc': '<p>Each type of visual aid has pros and cons that must be evaluated to ensure it will be beneficial to the overall presentation. Before incorporating visual aids into speeches, the speaker should understand that if used incorrectly, the visual will not be an aid, but a distraction. Planning ahead is important when using visual aids.</p><p>It is necessary to choose a visual aid that is appropriate for the material and audience. The purpose of the visual aid is to enhance the presentation.</p>'}]
+    -quote3 = [{'name':'Amanda Plummer', 'caption':'Actress', 'desc': '<p>Each type of visual aid has pros and cons that must be evaluated to ensure it will be beneficial to the overall presentation. Before incorporating visual aids into speeches, the speaker should understand that if used incorrectly, the visual will not be an aid, but a distraction. Planning ahead is important when using visual aids.</p>'},{'name':'Amanda Plummer', 'caption':'Actress', 'desc': '<p>Each type of visual aid has pros and cons that must be evaluated to ensure it will be beneficial to the overall presentation. Before incorporating visual aids into speeches, the speaker should understand that if used incorrectly, the visual will not be an aid, but a distraction. Planning ahead is important when using visual aids.</p>'},{'name':'Amanda Plummer', 'caption':'Actress', 'desc': '<p>Each type of visual aid has pros and cons that must be evaluated to ensure it will be beneficial to the overall presentation. Before incorporating visual aids into speeches, the speaker should understand that if used incorrectly, the visual will not be an aid, but a distraction. Planning ahead is important when using visual aids.</p>'}]
+    p quote photo right
+    section.tmp-template-quotes.tmp_photo_right#1
+      .tpl-block-list-objects(data-object-number="1")
+        each item in quote
+          .quotes-object
+            .quotes-desc!=item.desc
+            .quotes-container
+              .quotes-icon
+                img(src="photos/1.jpg")
+              .quotes-text
+                .quotes-name=item.name
+                .quotes-caption=item.caption
+    p quote photo left
+    section.tmp-template-quotes.tmp_photo_left#2
+      .tpl-block-list-objects(data-object-number="1")
+        each item in quote
+          .quotes-object
+            .quotes-desc!=item.desc
+            .quotes-container
+              .quotes-icon
+                img(src="photos/1.jpg")
+              .quotes-text
+                .quotes-name=item.name
+                .quotes-caption=item.caption
+    p quote photo bottom
+    section.tmp-template-quotes.tmp_photo_bottom#3
+      .tpl-block-list-objects(data-object-number="1")
+        each item in quote
+          .quotes-object
+            .quotes-desc!=item.desc
+            .quotes-container
+              .quotes-icon
+                img(src="photos/1.jpg")
+              .quotes-text
+                .quotes-name=item.name
+                .quotes-caption=item.caption
+    p quote photo top
+    section.tmp-template-quotes.tmp_photo_top#4
+      .tpl-block-list-objects(data-object-number="1")
+        each item in quote
+          .quotes-object
+            .quotes-desc!=item.desc
+            .quotes-container
+              .quotes-icon
+                img(src="photos/1.jpg")
+              .quotes-text
+                .quotes-name=item.name
+                .quotes-caption=item.caption
+    p quote no photo
+    section.tmp-template-quotes.tmp_photo_bottom#5
+      .tpl-block-list-objects(data-object-number="1")
+        each item in quote
+          .quotes-object
+            .quotes-desc!=item.desc
+            .quotes-container
+              .quotes-text
+                .quotes-name=item.name
+                .quotes-caption=item.caption
+    p quote with literal quotes
+    section.tmp-template-quotes.tmp_photo_literal_quotes#6
+      .tpl-block-list-objects(data-object-number="1")
+        each item in quote
+          .quotes-object
+            .quotes-desc!=item.desc
+            .quotes-container
+              .quotes-text
+                .quotes-name=item.name
+                .quotes-caption=item.caption
+    p узкая колонка в 600 пикселей
+    div(style="max-width:600px; margin: 0 auto")
+      section.tmp-template-quotes.tmp_photo_right#7
+        .tpl-block-list-objects(data-object-number="1")
+          each item in quote
+            .quotes-object
+              .quotes-desc!=item.desc
+              .quotes-container
+                .quotes-icon
+                  img(src="photos/1.jpg")
+                .quotes-text
+                  .quotes-name=item.name
+                  .quotes-caption=item.caption
+    p три цитаты
+    section.tmp-template-quotes.tmp_photo_right.mixin-layout-tiles_3#7
+      .tpl-block-list-objects(data-object-number="3")
+        each item in quote3
+          .quotes-object
+            .quotes-desc!=item.desc
+            .quotes-container
+              .quotes-icon
+                img(src="photos/1.jpg")
+              .quotes-text
+                .quotes-name=item.name
+                .quotes-caption=item.caption
+    script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js")
+    script(src="../../css-element-queries/ResizeSensor.js")
+    script(src="../../css-element-queries/ElementQueries.js")
+
+

@@ -1,0 +1,55 @@
+.tmp-template-quotes {
+  margin: 0 auto;
+  padding: 100px 20px;
+  background-color: var(--tpl-color-background-main); }
+  .tmp-template-quotes .tpl-block-list-objects {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap; }
+    .tmp-template-quotes .tpl-block-list-objects .quotes-object {
+      display: flex;
+      margin-bottom: 65px;
+      align-items: flex-start;
+      color: #000000;
+      padding: 0 20px; }
+    .tmp-template-quotes .tpl-block-list-objects .quotes-icon {
+      max-width: 100%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 80px;
+      height: 80px;
+      margin: 8px 0;
+      border-radius: 50%;
+      overflow: hidden; }
+    .tmp-template-quotes .tpl-block-list-objects .quotes-container {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      min-width: 200px;
+      margin: 0 60px;
+      align-items: center; }
+    .tmp-template-quotes .tpl-block-list-objects .quotes-name {
+      font-family: var(--tpl-font-family-common);
+      font-size: 15px;
+      line-height: 20px;
+      font-weight: bold;
+      margin-bottom: 0px;
+      padding-bottom: 5px;
+      padding-top: 5px; }
+    .tmp-template-quotes .tpl-block-list-objects .quotes-caption {
+      font-family: var(--tpl-font-family-common);
+      font-size: 11px;
+      line-height: 16px;
+      padding-top: 0px;
+      padding-bottom: 7px; }
+    .tmp-template-quotes .tpl-block-list-objects .quotes-desc {
+      font-family: var(--tpl-font-family-common);
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 1.55;
+      margin: 8px 60px;
+      max-width: 760px; }

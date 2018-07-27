@@ -12,7 +12,7 @@ var gulp = require('gulp'),
 
 
 
-gulp.task('default', ['pug', 'sass', 'js', 'img', 'watch', 'serve', 'scssToCss', 'pugToHTML', 'sourceTojs', 'concatJs' ], function() {
+gulp.task('default', ['pug', 'sass', 'js', 'watch', 'serve', 'scssToCss', 'pugToHTML', 'sourceTojs', 'concatJs' ], function() {
     return gutil.log('Gulp is running!')
 });
 
@@ -76,10 +76,10 @@ gulp.task('prefix', () =>
         .pipe(gulp.dest('build/css'))
 );
 
-gulp.task('img', function () {
-    return gulp.src('dev/img/*')
-        .pipe(gulp.dest('build/img'))
-});
+// gulp.task('img', function () {
+//     return gulp.src('dev/**/**/img/*')
+//         .pipe(gulp.dest('build/img'))
+// });
 
 gulp.task('watch', function() {
     gulp.watch('dev/components/**/*.scss', ['scssToCss']);
@@ -94,7 +94,7 @@ gulp.task('watch', function() {
     gulp.watch('build/css/*.css', ['prefix']);
 
     gulp.watch('dev/**/*.js', ['js']);
-    gulp.watch('dev/img/*', ['img']);
+    // gulp.watch('dev/img/*', ['img']);
 
     gulp.watch('dev/css/**/*.css', ['css']);
 
@@ -112,4 +112,4 @@ gulp.task('serve', function() {
 gulp.watch(['**/*.html', 'css/**/*.css', 'scripts/**/*.js'], {cwd: 'build'}, reload);
 });
 
-gulp.task('build', ['pug', 'sass', 'js', 'img', 'css', 'prefix', 'scssToCss', 'pugToHTML', 'sourceTojs', 'concatJs']);
+gulp.task('build', ['pug', 'sass', 'js', 'css', 'prefix', 'scssToCss', 'pugToHTML', 'sourceTojs', 'concatJs']);

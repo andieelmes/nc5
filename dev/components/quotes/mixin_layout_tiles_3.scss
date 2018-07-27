@@ -1,0 +1,24 @@
+.tmp-template-quotes.mixin-layout-tiles_3 {
+  .tpl-block-list-objects {
+    flex-direction: row;
+    max-width: 1300px;
+  }
+  .quotes-object {
+    width: 33%;
+    max-width: 500px;
+    padding: 0 20px;
+  }
+}
+
+
+.tmp-template-quotes.mixin-layout-tiles_3 {
+  .tpl-block-list-objects[max-width~="1050px"] {
+    flex-direction: column;
+    .quotes-object {
+      width: 100%;
+      max-width: 100%;
+    }
+    
+  }
+  
+} 

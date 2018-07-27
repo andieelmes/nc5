@@ -1,5 +1,6 @@
 :root {
   --tpl-font-family-common: 'Roboto', sans-serif;
+  --tpl-font-family-accent: 'Georgia', serif;
   --tpl-color-foreground-main: #000000;
   --tpl-color-foreground-accent: white;
   --tpl-color-background-main: white;
