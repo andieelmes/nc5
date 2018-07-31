@@ -1,16 +1,17 @@
 
 
 .tmp-template-quotes .tpl-block-list-objects {
-  .quotes-object[max-width~="600px"] {
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
+  .quotes-object[max-width~="900px"] {
+    flex-wrap: wrap;
     .quotes-container {
-      margin-top: 20px;
+      width: 100%;
+      max-width: 600px;
+      margin: 20px auto;
     }
     .quotes-desc {
-      margin-left: 10px;
-      margin-right: 10px;
+      margin: 0 auto;
+      width: 100%;
+      max-width: 600px;
     }
   }
 }

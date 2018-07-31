@@ -1,9 +1,10 @@
-.tmp-template-quotes .tpl-block-list-objects .quotes-object[max-width~="600px"] {
-  flex-direction: column;
-  text-align: center;
-  align-items: center; }
-  .tmp-template-quotes .tpl-block-list-objects .quotes-object[max-width~="600px"] .quotes-container {
-    margin-top: 20px; }
-  .tmp-template-quotes .tpl-block-list-objects .quotes-object[max-width~="600px"] .quotes-desc {
-    margin-left: 10px;
-    margin-right: 10px; }
+.tmp-template-quotes .tpl-block-list-objects .quotes-object[max-width~="900px"] {
+  flex-wrap: wrap; }
+  .tmp-template-quotes .tpl-block-list-objects .quotes-object[max-width~="900px"] .quotes-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto; }
+  .tmp-template-quotes .tpl-block-list-objects .quotes-object[max-width~="900px"] .quotes-desc {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 600px; }

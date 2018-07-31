@@ -23,7 +23,7 @@
         flex-direction: row;
         align-items: center;
         text-align: left;
-        margin-top: 20px;
+        margin: 20px 60px;
       }
       .quotes-icon {
         margin-right: 20px;
@@ -41,7 +41,7 @@
         flex-direction: row;
         align-items: center;
         text-align: left;
-        margin-bottom: 20px;
+        margin: 20px 60px;
       }
       .quotes-icon {
         margin-right: 20px;
@@ -60,7 +60,7 @@
         flex-direction: row;
         align-items: center;
         text-align: left;
-        margin-bottom: 20px;
+        margin: 20px 60px;
       }
       .quotes-desc {
         position: relative;
@@ -78,6 +78,15 @@
       .quotes-icon {
         margin-right: 20px;
       }
+    }
+  }
+}
+
+
+.tmp-template-quotes.tmp_no_photo {
+  .tpl-block-list-objects {
+    .quotes-container {
+      align-self: flex-start;
     }
   }
 }

@@ -11,7 +11,7 @@
     flex-direction: row;
     align-items: center;
     text-align: left;
-    margin-top: 20px; }
+    margin: 20px 60px; }
   .tmp-template-quotes.tmp_photo_bottom .tpl-block-list-objects .quotes-object .quotes-icon {
     margin-right: 20px; }
 
@@ -21,7 +21,7 @@
     flex-direction: row;
     align-items: center;
     text-align: left;
-    margin-bottom: 20px; }
+    margin: 20px 60px; }
   .tmp-template-quotes.tmp_photo_top .tpl-block-list-objects .quotes-object .quotes-icon {
     margin-right: 20px; }
 
@@ -31,7 +31,7 @@
     flex-direction: row;
     align-items: center;
     text-align: left;
-    margin-bottom: 20px; }
+    margin: 20px 60px; }
   .tmp-template-quotes.tmp_photo_literal_quotes .tpl-block-list-objects .quotes-object .quotes-desc {
     position: relative; }
     .tmp-template-quotes.tmp_photo_literal_quotes .tpl-block-list-objects .quotes-object .quotes-desc:before {
@@ -45,3 +45,6 @@
       color: #cccccc; }
   .tmp-template-quotes.tmp_photo_literal_quotes .tpl-block-list-objects .quotes-object .quotes-icon {
     margin-right: 20px; }
+
+.tmp-template-quotes.tmp_no_photo .tpl-block-list-objects .quotes-container {
+  align-self: flex-start; }

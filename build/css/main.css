@@ -658,7 +658,6 @@ h3 {
       -ms-flex-direction: column;
       flex-direction: column;
       min-width: 200px;
-      margin: 0 60px;
       -webkit-box-align: center;
       -ms-flex-align: center;
       align-items: center; }
@@ -731,7 +730,7 @@ h3 {
     -ms-flex-align: center;
     align-items: center;
     text-align: left;
-    margin-top: 20px; }
+    margin: 20px 60px; }
   .tmp-template-quotes.tmp_photo_bottom .tpl-block-list-objects .quotes-object .quotes-icon {
     margin-right: 20px; }
 
@@ -749,7 +748,7 @@ h3 {
     -ms-flex-align: center;
     align-items: center;
     text-align: left;
-    margin-bottom: 20px; }
+    margin: 20px 60px; }
   .tmp-template-quotes.tmp_photo_top .tpl-block-list-objects .quotes-object .quotes-icon {
     margin-right: 20px; }
 
@@ -767,7 +766,7 @@ h3 {
     -ms-flex-align: center;
     align-items: center;
     text-align: left;
-    margin-bottom: 20px; }
+    margin: 20px 60px; }
   .tmp-template-quotes.tmp_photo_literal_quotes .tpl-block-list-objects .quotes-object .quotes-desc {
     position: relative; }
     .tmp-template-quotes.tmp_photo_literal_quotes .tpl-block-list-objects .quotes-object .quotes-desc:before {
@@ -782,17 +781,18 @@ h3 {
   .tmp-template-quotes.tmp_photo_literal_quotes .tpl-block-list-objects .quotes-object .quotes-icon {
     margin-right: 20px; }
 
-.tmp-template-quotes .tpl-block-list-objects .quotes-object[max-width~="600px"] {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  text-align: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center; }
-  .tmp-template-quotes .tpl-block-list-objects .quotes-object[max-width~="600px"] .quotes-container {
-    margin-top: 20px; }
-  .tmp-template-quotes .tpl-block-list-objects .quotes-object[max-width~="600px"] .quotes-desc {
-    margin-left: 10px;
-    margin-right: 10px; }
+.tmp-template-quotes.tmp_no_photo .tpl-block-list-objects .quotes-container {
+  -ms-flex-item-align: start;
+  align-self: flex-start; }
+
+.tmp-template-quotes .tpl-block-list-objects .quotes-object[max-width~="900px"] {
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+  .tmp-template-quotes .tpl-block-list-objects .quotes-object[max-width~="900px"] .quotes-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto; }
+  .tmp-template-quotes .tpl-block-list-objects .quotes-object[max-width~="900px"] .quotes-desc {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 600px; }
