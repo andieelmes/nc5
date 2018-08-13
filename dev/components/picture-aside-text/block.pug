@@ -1,7 +1,7 @@
 doctype html
 html(lang="en")
   head
-    title Advantages
+    title Picture aside
     link(href="https://fonts.googleapis.com/css?family=Roboto:300,400,600,700&amp;subset=cyrillic-ext" rel="stylesheet")
     link(rel="stylesheet" type="text/css" href="../../css/main.css?v1")
     meta(charset="UTF-8")
@@ -9,8 +9,9 @@ html(lang="en")
   body
     -text1 = [{'header':'Visual Research', 'caption':'Tilda Publishing', 'bg':'https://static.tildacdn.com/tild3361-6465-4530-a538-313434386239/photo143830243944182e18f791f5e.jpeg'},]
     -text2 = [{'header':'Visual Research', 'caption':'Tilda Publishing', 'bg':'https://images.unsplash.com/photo-1484503793037-5c9644d6a80a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1037cea36bb8bcf2267c7b4872e70012&auto=format&fit=crop&w=1601&q=80'},{'header':'Digital Storytelling', 'caption':'The Future', 'bg':'https://images.unsplash.com/photo-1428908728789-d2de25dbd4e2?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d00f965d7f845968dd35c3590094149f&auto=format&fit=crop&w=1050&q=80'},]
-    p advantages 1 tiles
-    section.tmp-template-picture-text-over#1.tmp_shadow_overlay
+    -text3 = [{'header':'Visual Research', 'caption':'Tilda Publishing', 'bg':'https://images.unsplash.com/photo-1484503793037-5c9644d6a80a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1037cea36bb8bcf2267c7b4872e70012&auto=format&fit=crop&w=1601&q=80'},{'header':'Digital Storytelling', 'caption':'The Future', 'bg':'https://images.unsplash.com/photo-1428908728789-d2de25dbd4e2?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d00f965d7f845968dd35c3590094149f&auto=format&fit=crop&w=1050&q=80'},{'header':'Visual Research', 'caption':'Tilda Publishing', 'bg':'https://images.unsplash.com/photo-1484503793037-5c9644d6a80a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1037cea36bb8bcf2267c7b4872e70012&auto=format&fit=crop&w=1601&q=80'},]
+    p picture 1 tiles
+    section.tmp-template-picture-aside-text.tmp_bg_block_no_contrast#1
       .picture-prefix
         .tmp-template-header
             h2.header2 What we do
@@ -19,13 +20,12 @@ html(lang="en")
         each item in text1
           .picture-object
             .picture-overlay.picture-bg(style="background-image:url("+item.bg+")")
-            .picture-overlay.picture-shadow
             .picture-wrapper
               .picture-title=item.header
               .picture-text=item.caption
     p узкая колонка в 800 пикселей
     div(style="max-width:800px; margin: 0 auto")
-      section.tmp-template-picture-text-over#1.tmp_text_bg_contrast
+      section.tmp-template-picture-aside-text#1
         .picture-prefix
           .tmp-template-header
               h2.header2 What we do
@@ -34,12 +34,11 @@ html(lang="en")
           each item in text1
             .picture-object
               .picture-overlay.picture-bg(style="background-image:url("+item.bg+")")
-              .picture-overlay.picture-shadow
               .picture-wrapper
                 .picture-title=item.header
                 .picture-text=item.caption
-    p advantages 2 tiles
-    section.tmp-template-picture-text-over.mixin-layout-tiles_2#2.tmp_no_contrast
+    p picture 2 tiles
+    section.tmp-template-picture-aside-text.mixin-layout-tiles_2#2.tmp_bg_block_contrast
       .picture-prefix
         .tmp-template-header
             h2.header2 What we do
@@ -48,13 +47,12 @@ html(lang="en")
         each item in text2
           .picture-object
             .picture-overlay.picture-bg(style="background-image:url("+item.bg+")")
-            .picture-overlay.picture-shadow
             .picture-wrapper
               .picture-title=item.header
               .picture-text=item.caption
     p узкая колонка в 800 пикселей
     div(style="max-width:800px; margin: 0 auto")
-      section.tmp-template-picture-text-over.mixin-layout-tiles_2#2.tmp_text_bg_no_contrast
+      section.tmp-template-picture-aside-text.mixin-layout-tiles_2#2.tmp_text_left.tmp_bg_block_no_contrast
         .picture-prefix
           .tmp-template-header
               h2.header2 What we do
@@ -63,10 +61,37 @@ html(lang="en")
           each item in text2
             .picture-object
               .picture-overlay.picture-bg(style="background-image:url("+item.bg+")")
-              .picture-overlay.picture-shadow
               .picture-wrapper
                 .picture-title=item.header
                 .picture-text=item.caption
+    p picture 3 tiles
+    section.tmp-template-picture-aside-text.mixin-layout-tiles_3#3.tmp_bg_no_contrast
+      .picture-prefix
+        .tmp-template-header
+            h2.header2 What we do
+            h3.header3 Our goal is to make clients happy and help them get what they want
+      .tpl-block-list-objects(data-object-number="1")
+        each item in text3
+          .picture-object
+            .picture-overlay.picture-bg(style="background-image:url("+item.bg+")")
+            .picture-wrapper
+              .picture-title=item.header
+              .picture-text=item.caption
+    p узкая колонка в 800 пикселей
+    div(style="max-width:800px; margin: 0 auto")
+      section.tmp-template-picture-aside-text.mixin-layout-tiles_3#3
+        .picture-prefix
+          .tmp-template-header
+              h2.header2 What we do
+              h3.header3 Our goal is to make clients happy and help them get what they want
+        .tpl-block-list-objects(data-object-number="1")
+          each item in text3
+            .picture-object
+              .picture-overlay.picture-bg(style="background-image:url("+item.bg+")")
+              .picture-wrapper
+                .picture-title=item.header
+                .picture-text=item.caption
+    
     script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js")
     script(src="../../css-element-queries/ResizeSensor.js")
     script(src="../../css-element-queries/ElementQueries.js")

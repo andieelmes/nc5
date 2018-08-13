@@ -1,0 +1,21 @@
+.tmp-template-picture-aside-text.mixin-layout-tiles_3 .tpl-block-list-objects {
+  flex-direction: row; }
+
+.tmp-template-picture-aside-text.mixin-layout-tiles_3 .picture-object {
+  max-width: 400px;
+  width: 32%; }
+
+.tmp-template-picture-aside-text.mixin-layout-tiles_3 .picture-title {
+  font-size: 36px;
+  line-height: 46px; }
+
+.tmp-template-picture-aside-text.mixin-layout-tiles_3 .picture-text {
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 20px; }
+
+.tmp-template-picture-aside-text.mixin-layout-tiles_3 .tpl-block-list-objects[max-width~="800px"] {
+  flex-direction: column; }
+  .tmp-template-picture-aside-text.mixin-layout-tiles_3 .tpl-block-list-objects[max-width~="800px"] .picture-object {
+    width: 100%;
+    max-width: 100%; }

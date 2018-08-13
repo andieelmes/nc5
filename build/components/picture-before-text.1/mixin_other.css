@@ -1,0 +1,4 @@
+.tmp-template-picture-before-text.tmp_bg_contrast {
+  background-color: var(--tpl-color-background-accent); }
+  .tmp-template-picture-before-text.tmp_bg_contrast .tpl-block-list-objects .picture-object {
+    color: var(--tpl-color-foreground-main); }

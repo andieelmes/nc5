@@ -1,4 +1,4 @@
-.tmp-template-picture-text-over.mixin-layout-tiles_2 {
+.tmp-template-picture-under-text.mixin-layout-tiles_2 {
   .tpl-block-list-objects {
     flex-direction: row;
   }
@@ -19,7 +19,7 @@
 }
 
 
-.tmp-template-picture-text-over.mixin-layout-tiles_2 {
+.tmp-template-picture-under-text.mixin-layout-tiles_2 {
   .tpl-block-list-objects[max-width~="800px"] {
     flex-direction: column;
     .picture-object {

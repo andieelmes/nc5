@@ -26,7 +26,20 @@
 @import "../components/quotes/adaptive";
 
 
-@import "../components/picture-text-over/block";
-@import "../components/picture-text-over/mixin_layout_tiles_2";
-@import "../components/picture-text-over/mixin_other";
-@import "../components/picture-text-over/adaptive";
+@import "../components/picture-under-text/block";
+@import "../components/picture-under-text/mixin_layout_tiles_2";
+@import "../components/picture-under-text/mixin_other";
+@import "../components/picture-under-text/adaptive";
+
+@import "../components/picture-before-text/block";
+@import "../components/picture-before-text/mixin_layout_tiles_2";
+@import "../components/picture-before-text/mixin_layout_tiles_3";
+@import "../components/picture-before-text/mixin_other";
+@import "../components/picture-before-text/adaptive";
+
+
+@import "../components/picture-aside-text/block";
+@import "../components/picture-aside-text/mixin_layout_tiles_2";
+@import "../components/picture-aside-text/mixin_layout_tiles_3";
+@import "../components/picture-aside-text/mixin_other";
+@import "../components/picture-aside-text/adaptive";

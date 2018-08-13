@@ -1,0 +1,26 @@
+.tmp-template-picture-aside-text .tpl-block-list-objects .picture-object[max-width~="1050px"] .picture-bg {
+  height: 400px; }
+
+.tmp-template-picture-aside-text .tpl-block-list-objects .picture-object[max-width~="1050px"] .picture-title {
+  font-size: 36px;
+  line-height: 46px; }
+
+.tmp-template-picture-aside-text .tpl-block-list-objects .picture-object[max-width~="1050px"] .picture-text {
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 20px; }
+
+.tmp-template-picture-aside-text .tpl-block-list-objects .picture-object[max-width~="500px"] {
+  flex-direction: column; }
+  .tmp-template-picture-aside-text .tpl-block-list-objects .picture-object[max-width~="500px"] .picture-bg {
+    height: 300px;
+    width: 100%; }
+  .tmp-template-picture-aside-text .tpl-block-list-objects .picture-object[max-width~="500px"] .picture-wrapper {
+    width: 100%; }
+  .tmp-template-picture-aside-text .tpl-block-list-objects .picture-object[max-width~="500px"] .picture-title {
+    font-size: 36px;
+    line-height: 46px; }
+  .tmp-template-picture-aside-text .tpl-block-list-objects .picture-object[max-width~="500px"] .picture-text {
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 20px; }
