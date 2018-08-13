@@ -1,0 +1,16 @@
+
+
+.tmp-template-picture-text-over .tpl-block-list-objects {
+  .picture-object[max-width~="800px"] {
+    height: 400px;
+    .picture-title {
+      font-size: 36px;
+      line-height: 46px;
+    }
+    .picture-text {
+      font-size: 16px;
+      line-height: 20px;
+      margin-top: 20px;
+    }
+  }
+}

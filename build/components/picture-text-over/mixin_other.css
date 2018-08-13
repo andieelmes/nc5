@@ -1,0 +1,18 @@
+.tmp-template-picture-text-over.tmp_bg_contrast .tpl-block-list-objects .picture-object {
+  color: var(--tpl-color-foreground-accent); }
+
+.tmp-template-picture-text-over.tmp_no_contrast .tpl-block-list-objects .picture-object {
+  color: var(--tpl-color-foreground-main); }
+
+.tmp-template-picture-text-over.tmp_text_bg_contrast .tpl-block-list-objects .picture-wrapper {
+  color: var(--tpl-color-foreground-accent);
+  background-color: var(--tpl-color-background-contrast); }
+
+.tmp-template-picture-text-over.tmp_text_bg_no_contrast .tpl-block-list-objects .picture-wrapper {
+  color: var(--tpl-color-foreground-main);
+  background-color: var(--tpl-color-background-accent); }
+
+.tmp-template-picture-text-over.tmp_shadow_overlay .tpl-block-list-objects .picture-object {
+  color: var(--tpl-color-foreground-accent); }
+  .tmp-template-picture-text-over.tmp_shadow_overlay .tpl-block-list-objects .picture-object .picture-shadow {
+    background-image: linear-gradient(top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.8) 100%); }

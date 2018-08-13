@@ -1,0 +1,30 @@
+.tmp-template-picture-text-over.mixin-layout-tiles_2 {
+  .tpl-block-list-objects {
+    flex-direction: row;
+  }
+  .picture-object {
+    height: 400px;
+    max-width: 580px;
+    width: 49%;
+  }
+  .picture-title {
+    font-size: 36px;
+    line-height: 46px;
+  }
+  .picture-text {
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 20px;
+  }
+}
+
+
+.tmp-template-picture-text-over.mixin-layout-tiles_2 {
+  .tpl-block-list-objects[max-width~="800px"] {
+    flex-direction: column;
+    .picture-object {
+      width: 100%;
+      max-width: 100%;
+    } 
+  }
+} 
