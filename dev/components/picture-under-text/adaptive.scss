@@ -14,3 +14,18 @@
     }
   }
 }
+
+.tmp-template-picture-under-text .tpl-block-list-objects {
+  .picture-object[max-width~="400px"] {
+    height: 350px;
+    .picture-title {
+      font-size: 24px;
+      line-height: 32px;
+    }
+    .picture-text {
+      font-size: 14px;
+      line-height: 18px;
+      margin-top: 20px;
+    }
+  }
+}

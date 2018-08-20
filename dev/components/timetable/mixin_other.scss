@@ -1,0 +1,10 @@
+.tmp-template-timetable.tmp_no_separator {
+  .tpl-block-list-objects {
+    .timetable-object {
+      border: 0;
+      &:last-child {
+        border: 0;
+      }
+    }
+  }
+}

@@ -5,7 +5,7 @@
 
 .tmp-template-picture-before-text .tpl-block-list-objects {
   .picture-object[max-width~="800px"] {
-    .picture-bg {
+    .picture-overlay {
       height: 300px;
     }  
     .picture-title {
@@ -15,6 +15,25 @@
     .picture-text {
       font-size: 16px;
       line-height: 20px;
+      margin-top: 20px;
+    }
+  }
+}
+
+.tmp-template-picture-before-text .tpl-block-list-objects {
+  .picture-object[max-width~="400px"] {
+    .picture-overlay {
+      height: 250px;
+      width: 250px;
+    }  
+
+    .picture-title {
+      font-size: 24px;
+      line-height: 32px;
+    }
+    .picture-text {
+      font-size: 14px;
+      line-height: 18px;
       margin-top: 20px;
     }
   }

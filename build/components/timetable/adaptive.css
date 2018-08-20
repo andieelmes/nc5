@@ -1,0 +1,22 @@
+.tmp-template-timetable .tpl-block-list-objects .timetable-object[max-width~="800px"] {
+  padding: 30px 20px;
+  flex-direction: column; }
+  .tmp-template-timetable .tpl-block-list-objects .timetable-object[max-width~="800px"] .timetable-time {
+    width: 100%; }
+  .tmp-template-timetable .tpl-block-list-objects .timetable-object[max-width~="800px"] .timetable-info {
+    padding-top: 30px;
+    width: 100%; }
+
+.tmp-template-timetable .tpl-block-list-objects .timetable-object[max-width~="500px"] {
+  padding: 20px 0; }
+  .tmp-template-timetable .tpl-block-list-objects .timetable-object[max-width~="500px"] .timetable-header {
+    font-size: 22px;
+    line-height: 1.4; }
+    .tmp-template-timetable .tpl-block-list-objects .timetable-object[max-width~="500px"] .timetable-header + .timetable-person {
+      margin-top: 20px; }
+    .tmp-template-timetable .tpl-block-list-objects .timetable-object[max-width~="500px"] .timetable-header + .timetable-desc {
+      margin-top: 20px; }
+  .tmp-template-timetable .tpl-block-list-objects .timetable-object[max-width~="500px"] .timetable-person + .timetable-desc {
+    margin-top: 20px; }
+  .tmp-template-timetable .tpl-block-list-objects .timetable-object[max-width~="500px"] .timetable-desc, .tmp-template-timetable .tpl-block-list-objects .timetable-object[max-width~="500px"] .timetable-about {
+    font-size: 16px; }

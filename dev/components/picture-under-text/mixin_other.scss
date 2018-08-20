@@ -55,3 +55,27 @@
     }
   }
 }
+
+.tmp-template-picture-under-text.tmp_text_right_corner {
+  .tpl-block-list-objects {
+    .picture-object {
+      align-items: flex-end;
+    }
+    .picture-wrapper {
+      text-align: right;
+      margin-right: 0;
+    }
+  }
+}
+
+.tmp-template-picture-under-text.tmp_text_left_corner {
+  .tpl-block-list-objects {
+    .picture-object {
+      align-items: flex-end;
+    }
+    .picture-wrapper {
+      text-align: left;
+      margin-left: 0;
+    }
+  }
+}

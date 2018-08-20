@@ -5,4 +5,5 @@
   --tpl-color-foreground-accent: white;
   --tpl-color-background-main: white;
   --tpl-color-background-accent: #FAFAFA;
-  --tpl-color-background-contrast: #424141; }
+  --tpl-color-background-contrast: #424141;
+  --tpl-border-main: rgba(0, 0, 0, 0.1); }

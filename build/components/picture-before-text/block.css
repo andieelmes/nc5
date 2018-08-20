@@ -28,7 +28,8 @@
       width: 100%; }
     .tmp-template-picture-before-text .tpl-block-list-objects .picture-bg {
       background-size: cover;
-      background-position: center; }
+      background-position: center;
+      background-repeat: no-repeat; }
     .tmp-template-picture-before-text .tpl-block-list-objects .picture-wrapper {
       position: relative;
       z-index: 100;

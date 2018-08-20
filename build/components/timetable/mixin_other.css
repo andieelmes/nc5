@@ -1,0 +1,4 @@
+.tmp-template-timetable.tmp_no_separator .tpl-block-list-objects .timetable-object {
+  border: 0; }
+  .tmp-template-timetable.tmp_no_separator .tpl-block-list-objects .timetable-object:last-child {
+    border: 0; }

@@ -1,0 +1,39 @@
+
+
+.tmp-template-timetable .tpl-block-list-objects {
+  .timetable-object[max-width~="800px"] {
+    padding:30px 20px;
+    flex-direction: column;
+    .timetable-time {
+      width: 100%;
+    }
+    .timetable-info {
+      padding-top: 30px;
+      width: 100%;
+    }
+  }
+}
+
+.tmp-template-timetable .tpl-block-list-objects {
+  .timetable-object[max-width~="500px"] {
+    padding:20px 0;
+    .timetable-header {
+      font-size: 22px;
+      line-height: 1.4;
+      & + .timetable-person {
+        margin-top: 20px;
+      }
+      & + .timetable-desc {
+        margin-top: 20px;
+      }
+    }
+    .timetable-person {
+      & + .timetable-desc {
+        margin-top: 20px;
+      }
+    }
+    .timetable-desc, .timetable-about {
+      font-size: 16px;
+    }
+  }
+}
