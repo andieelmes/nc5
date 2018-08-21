@@ -1,0 +1,10 @@
+.tmp-template-partners-names .tpl-block-list-objects .partners-object[max-width~="500px"] {
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 0 20px;
+  text-align: center; }
+  .tmp-template-partners-names .tpl-block-list-objects .partners-object[max-width~="500px"] .partners-image {
+    width: 100%; }
+  .tmp-template-partners-names .tpl-block-list-objects .partners-object[max-width~="500px"] .partners-info {
+    width: 100%;
+    padding: 0; }

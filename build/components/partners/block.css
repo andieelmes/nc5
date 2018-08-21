@@ -14,14 +14,15 @@
     margin-right: auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center; }
+    justify-content: center; }
     .tmp-template-partners .tpl-block-list-objects .partners-object {
       display: flex;
       padding: 20px;
       width: 20%;
       max-width: 310px;
-      min-width: 220px; }
+      min-width: 220px;
+      min-height: 220px;
+      align-items: center; }
     .tmp-template-partners .tpl-block-list-objects .partners-image {
       margin: 0 auto;
       max-width: 200px; }

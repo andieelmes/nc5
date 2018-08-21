@@ -1,0 +1,44 @@
+.tmp-template-partners.tmp_border[max-width~="900px"] {
+  .partners-object {
+    min-width: 200px;
+    min-height: 200px;
+    width: 50%;
+    &:nth-child(4n) {
+      border-right: 1px solid #bebebe;
+    }
+    &:nth-child(2n) {
+      border-right:0;
+    }
+    &:nth-last-child(-n+4) {
+      border-bottom: 1px solid #bebebe;
+    }
+    &:nth-last-child(-n+2) {
+      border-bottom: 0;
+    }
+  }
+}
+
+.tmp-template-partners.tmp_border[max-width~="450px"] {
+  .partners-object {
+    min-width: 200px;
+    min-height: 200px;
+    width: 100%;
+    border-right:0;
+    border-bottom: 1px solid #bebebe;
+    &:nth-child(4n) {
+      border-right:0;
+    }
+    &:nth-child(2n) {
+      border-right:0;
+    }
+    &:nth-last-child(-n+4) {
+      border-bottom: 1px solid #bebebe;
+    }
+    &:nth-last-child(-n+2) {
+      border-bottom: 1px solid #bebebe;
+    }
+    &:last-child {
+      border-bottom:0;
+    }
+  }
+}

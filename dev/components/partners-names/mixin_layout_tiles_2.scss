@@ -1,0 +1,22 @@
+.tmp-template-partners-names.mixin-layout-tiles_2 {
+  .tpl-block-list-objects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+  }
+  .partners-object {
+    width: 48%;
+    min-width: 320px;
+    max-width: 400px;
+    text-align: center;
+    justify-content: flex-start;
+  }
+  .partners-image {
+    width: 100%;
+  }
+  .partners-info {
+    width: 100%;
+  }
+}

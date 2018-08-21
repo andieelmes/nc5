@@ -1,0 +1,15 @@
+.tmp-template-partners-names.tmp_large_padding .tpl-block-list-objects .partners-object {
+  padding: 30px; }
+
+.tmp-template-partners-names.tmp_border .tpl-block-list-objects {
+  flex-wrap: wrap; }
+  .tmp-template-partners-names.tmp_border .tpl-block-list-objects .partners-object {
+    border-bottom: 1px solid #bebebe;
+    border-right: 1px solid #bebebe;
+    min-width: 200px;
+    min-height: 200px;
+    width: 25%; }
+    .tmp-template-partners-names.tmp_border .tpl-block-list-objects .partners-object:nth-child(4n) {
+      border-right: 0; }
+    .tmp-template-partners-names.tmp_border .tpl-block-list-objects .partners-object:nth-last-child(-n+4) {
+      border-bottom: 0; }

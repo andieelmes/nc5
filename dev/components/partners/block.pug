@@ -9,6 +9,7 @@ html(lang="en")
     meta(name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0")
   body
     -partners = ['https://static.tildacdn.com/tild3962-6235-4361-b535-643038646330/20.jpg', 'https://static.tildacdn.com/tild3865-6137-4365-b438-393534366466/21.jpg', 'https://static.tildacdn.com/tild3362-3132-4563-a261-633639373930/blob.png', 'https://static.tildacdn.com/tild6132-3663-4631-b230-353635316432/blob.png', 'https://static.tildacdn.com/tild3861-6330-4137-b664-653130616331/15.jpg','https://static.tildacdn.com/tild3932-6362-4366-a238-636331316638/18.jpg','https://static.tildacdn.com/tild3533-6638-4637-a533-383737356535/16.jpg', 'https://static.tildacdn.com/tild3930-3033-4161-a563-333432356136/blob.png','https://static.tildacdn.com/tild6335-6337-4964-a335-346163363561/17.jpg', 'https://static.tildacdn.com/tild3737-3836-4630-a665-663634383034/blob.png']
+    -partners2 = ['https://static.tildacdn.com/tild3962-6235-4361-b535-643038646330/20.jpg', 'https://static.tildacdn.com/tild3865-6137-4365-b438-393534366466/21.jpg', 'https://static.tildacdn.com/tild3362-3132-4563-a261-633639373930/blob.png', 'https://static.tildacdn.com/tild6132-3663-4631-b230-353635316432/blob.png', 'https://static.tildacdn.com/tild3861-6330-4137-b664-653130616331/15.jpg','https://static.tildacdn.com/tild3932-6362-4366-a238-636331316638/18.jpg','https://static.tildacdn.com/tild3533-6638-4637-a533-383737356535/16.jpg', 'https://static.tildacdn.com/tild3930-3033-4161-a563-333432356136/blob.png',]
     p partners
     section.tmp-template-partners#1
       .partners-prefix
@@ -37,7 +38,17 @@ html(lang="en")
             include icons/arrow.svg
           .swiper-button-next
             include icons/arrow.svg
-
+    p partners with border
+    section.tmp-template-partners#1.tmp_border
+      .partners-prefix
+        .tmp-template-header
+          h2.header2 Our partners
+          h3.header3 If you are interested in becoming a partner or sponsor, please feel free to write us.
+      .tpl-block-list-objects(data-object-number="3")
+        each item in partners2
+          .partners-object   
+            .partners-image
+              img(src=item)
     
     script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js")
     script(src="../../css-element-queries/ResizeSensor.js")
