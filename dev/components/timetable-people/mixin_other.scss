@@ -1,0 +1,28 @@
+.tmp-template-timetable-people.tmp_no_separator {
+  .tpl-block-list-objects {
+    .timetable-object {
+      border: 0;
+      &:last-child {
+        border: 0;
+      }
+    }
+  }
+}
+
+.tmp-template-timetable-people.tmp_photo_circle {
+  .tpl-block-list-objects {
+    .timetable-image {
+      border-radius: 50%;
+    }
+  }
+}
+.tmp-template-timetable-people.tmp_time_left {
+  .tpl-block-list-objects {
+    .timetable-object {
+      flex-direction: row-reverse;
+    }
+    .timetable-time {
+      text-align: left;
+    }
+  }
+}

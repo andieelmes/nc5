@@ -1,0 +1,74 @@
+
+
+.tmp-template-timetable-people .tpl-block-list-objects {
+  .timetable-object[max-width~="800px"] {
+    padding:30px 20px;
+    flex-direction: column-reverse;
+    .timetable-time {
+      width: 100%;
+      text-align: left;
+    }
+    .timetable-info {
+      padding-top: 20px;
+      width: 100%;
+    }
+    .timetable-image {
+      width: 200px;
+      height: 200px;
+      min-width: 200px;
+      min-height: 200px;
+      margin-right: 30px;
+    }
+    .timetable-about {
+      & + .timetable-desc {
+        margin-top: 20px;
+      }
+    }
+  }
+}
+
+.tmp-template-timetable-people .tpl-block-list-objects {
+  .timetable-object[max-width~="500px"] {
+    padding:20px 0;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    .timetable-name {
+      font-size: 22px;
+      line-height: 1.4;
+      & + .timetable-about {
+        margin-top: 10px;
+      }
+      & + .timetable-desc {
+        margin-top: 20px;
+      }
+    }
+    .timetable-image {
+      margin-bottom: 20px;
+      margin-right: 0;
+    }
+    .timetable-info {
+      flex-direction: column;
+      width: 100%;
+      padding-right: 0;
+      align-items: center;
+    }
+    .timetable-container {
+      width: 100%;
+    }
+    .timetable-about {
+      & + .timetable-desc {
+        margin-top: 20px;
+      }
+    }
+    .timetable-desc, .timetable-about {
+      font-size: 16px;
+    }
+    .timetable-time {
+      text-align: center;
+      font-size: 18px;
+      line-height: 1.4;
+      padding-top: 10px;
+    }
+  }
+}
