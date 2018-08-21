@@ -3,7 +3,7 @@
   .tmp-template-timetable-people.tmp_no_separator .tpl-block-list-objects .timetable-object:last-child {
     border: 0; }
 
-.tmp-template-timetable-people.tmp_photo_circle .tpl-block-list-objects .timetable-image {
+.tmp-template-timetable-people.tmp_photo_round .tpl-block-list-objects .timetable-image {
   border-radius: 50%; }
 
 .tmp-template-timetable-people.tmp_time_left .tpl-block-list-objects .timetable-object {

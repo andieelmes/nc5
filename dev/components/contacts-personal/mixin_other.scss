@@ -1,0 +1,26 @@
+
+
+.tmp-template-contacts-personal.tmp_photo_round {
+  .tpl-block-list-objects {
+    .contacts-image {
+      border-radius: 50%;
+    }
+  }
+}
+.tmp-template-contacts-personal.tmp_align_center {
+  .tpl-block-list-objects {
+    .contacts-object {
+      align-items: center;
+      text-align: center;
+    }
+  }
+}
+
+
+.tmp-template-contacts-personal.tmp_align_left {
+  .tpl-block-list-objects {
+    .contacts-object {
+      text-align: left;
+    }
+  }
+}

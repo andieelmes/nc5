@@ -1,0 +1,10 @@
+.tmp-template-contacts-personal.mixin-layout-tiles_3 .tpl-block-list-objects {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1200px; }
+
+.tmp-template-contacts-personal.mixin-layout-tiles_3 .contacts-object {
+  width: 32%;
+  min-width: 320px; }
