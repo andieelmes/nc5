@@ -1964,3 +1964,69 @@ h3 {
 
 .tmp-template-corp-tiles.tmp_align_right .tpl-block-list-objects .contacts-object {
   text-align: right; }
+
+.tmp-template-partners {
+  margin: 0 auto;
+  padding: 100px 20px;
+  background-color: var(--tpl-color-background-main); }
+  .tmp-template-partners .partners-prefix {
+    max-width: 560px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 70px;
+    text-align: center; }
+  .tmp-template-partners .tpl-block-list-objects {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .tmp-template-partners .tpl-block-list-objects .partners-object {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      padding: 20px;
+      width: 20%;
+      max-width: 310px;
+      min-width: 220px; }
+    .tmp-template-partners .tpl-block-list-objects .partners-image {
+      margin: 0 auto;
+      max-width: 200px; }
+      .tmp-template-partners .tpl-block-list-objects .partners-image img {
+        max-width: 100%; }
+  .tmp-template-partners .swiper-button-prev, .tmp-template-partners .swiper-button-next {
+    width: 30px;
+    height: 30px;
+    background: #e8e8e8;
+    border-radius: 50%;
+    right: 0; }
+    .tmp-template-partners .swiper-button-prev svg, .tmp-template-partners .swiper-button-next svg {
+      width: 7px;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%); }
+    .tmp-template-partners .swiper-button-prev:hover, .tmp-template-partners .swiper-button-prev:focus, .tmp-template-partners .swiper-button-next:hover, .tmp-template-partners .swiper-button-next:focus {
+      opacity: 0.8; }
+  .tmp-template-partners .swiper-button-prev {
+    -webkit-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+    left: 0;
+    right: auto; }
+  .tmp-template-partners .slider-wrapper {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+
+.tmp-template-partners.tmp_large_padding .tpl-block-list-objects .partners-object {
+  padding: 30px; }
