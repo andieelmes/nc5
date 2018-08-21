@@ -1,0 +1,18 @@
+.tmp-template-timetable-tiles .tpl-block-list-objects .timetable-object[max-width~="300px"] {
+  padding: 20px; }
+  .tmp-template-timetable-tiles .tpl-block-list-objects .timetable-object[max-width~="300px"] .timetable-header {
+    font-size: 20px;
+    line-height: 1.4; }
+    .tmp-template-timetable-tiles .tpl-block-list-objects .timetable-object[max-width~="300px"] .timetable-header + .timetable-person {
+      margin-top: 20px; }
+    .tmp-template-timetable-tiles .tpl-block-list-objects .timetable-object[max-width~="300px"] .timetable-header + .timetable-desc {
+      margin-top: 20px; }
+  .tmp-template-timetable-tiles .tpl-block-list-objects .timetable-object[max-width~="300px"] .timetable-person + .timetable-desc {
+    margin-top: 20px; }
+  .tmp-template-timetable-tiles .tpl-block-list-objects .timetable-object[max-width~="300px"] .timetable-image {
+    width: 50px;
+    height: 50px;
+    min-width: 50px;
+    min-height: 50px; }
+  .tmp-template-timetable-tiles .tpl-block-list-objects .timetable-object[max-width~="300px"] .timetable-desc, .tmp-template-timetable-tiles .tpl-block-list-objects .timetable-object[max-width~="300px"] .timetable-time {
+    font-size: 16px; }

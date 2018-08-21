@@ -1,0 +1,72 @@
+.tmp-template-timetable-tiles {
+  margin: 0 auto;
+  padding: 100px 20px;
+  background-color: var(--tpl-color-background-main); }
+  .tmp-template-timetable-tiles .timetable-prefix {
+    max-width: 560px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 105px;
+    text-align: center; }
+  .tmp-template-timetable-tiles .tpl-block-list-objects {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+    .tmp-template-timetable-tiles .tpl-block-list-objects .timetable-object {
+      padding: 45px 0;
+      max-width: 360px;
+      width: 32%;
+      margin: 0 1%;
+      min-width: 270px;
+      background-color: white;
+      padding: 30px;
+      margin-bottom: 40px; }
+    .tmp-template-timetable-tiles .tpl-block-list-objects .timetable-time {
+      font-family: var(--tpl-font-family-common);
+      font-size: 18px;
+      line-height: 1.35;
+      font-weight: 600; }
+      .tmp-template-timetable-tiles .tpl-block-list-objects .timetable-time + .timetable-info {
+        margin-top: 25px; }
+    .tmp-template-timetable-tiles .tpl-block-list-objects .timetable-person {
+      display: flex;
+      align-items: center;
+      padding-top: 20px; }
+      .tmp-template-timetable-tiles .tpl-block-list-objects .timetable-person + .timetable-desc {
+        margin-top: 25px; }
+    .tmp-template-timetable-tiles .tpl-block-list-objects .timetable-image {
+      width: 70px;
+      height: 70px;
+      min-width: 70px;
+      min-height: 70px;
+      border-radius: 50%;
+      overflow: hidden;
+      margin-right: 20px; }
+      .tmp-template-timetable-tiles .tpl-block-list-objects .timetable-image img {
+        max-width: 100%; }
+    .tmp-template-timetable-tiles .tpl-block-list-objects .timetable-about {
+      font-family: var(--tpl-font-family-common);
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 1.55; }
+      .tmp-template-timetable-tiles .tpl-block-list-objects .timetable-about strong {
+        font-weight: 600; }
+    .tmp-template-timetable-tiles .tpl-block-list-objects .timetable-header {
+      font-family: var(--tpl-font-family-common);
+      font-size: 22px;
+      line-height: 1.35;
+      font-weight: 600; }
+      .tmp-template-timetable-tiles .tpl-block-list-objects .timetable-header + .timetable-person {
+        margin-top: 25px; }
+      .tmp-template-timetable-tiles .tpl-block-list-objects .timetable-header + .timetable-desc {
+        margin-top: 25px; }
+    .tmp-template-timetable-tiles .tpl-block-list-objects .timetable-desc {
+      font-family: var(--tpl-font-family-common);
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 1.55; }
+      .tmp-template-timetable-tiles .tpl-block-list-objects .timetable-desc + .timetable-person {
+        margin-top: 25px; }
