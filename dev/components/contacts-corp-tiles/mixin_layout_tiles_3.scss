@@ -1,0 +1,13 @@
+.tmp-template-corp-tiles.mixin-layout-tiles_3 {
+  .tpl-block-list-objects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+  }
+  .contacts-object {
+    width: 32%;
+    min-width: 320px;
+  }
+}

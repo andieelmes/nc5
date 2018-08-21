@@ -1,0 +1,75 @@
+doctype html
+html(lang="en")
+  head
+    title Contacts Corpotate Tiled
+    link(href="https://fonts.googleapis.com/css?family=Roboto:300,400,600,700&amp;subset=cyrillic-ext" rel="stylesheet")
+    link(rel="stylesheet" type="text/css" href="../../css/main.css?v1")
+    meta(charset="UTF-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0")
+  body
+    p contacts
+    section.tmp-template-corp-tiles#1.tmp_align_center.mixin-layout-tiles_3
+      .contacts-prefix
+        .tmp-template-header
+          h2.header2 Contacts and location
+          h3.header3 Feel free to write, call and visit us. We really love to communicate with our clients.
+      .tpl-block-list-objects(data-object-number="3")
+        .contacts-object   
+          .contacts-image
+            include icons/smartphone.svg
+          .contacts-info            
+            .contacts-header Contact
+            .contacts-about 
+              span +1 123 456 78 90
+              br
+              span hello@madeontilda.com
+        .contacts-object   
+          .contacts-image
+            include icons/pin.svg
+          .contacts-info            
+            .contacts-header Address
+            .contacts-about Loft Pineapple, 22 New Green Street, New York
+        .contacts-object   
+          .contacts-image
+            include icons/compass.svg
+          .contacts-info            
+            .contacts-header Pathway
+            .contacts-about We are located in the northern part of the city. The nearest subway is the North Road.
+    p contacts tiles 4 no image
+    section.tmp-template-corp-tiles#1.tmp_align_left.mixin-layout-tiles_4
+      .contacts-prefix
+        .tmp-template-header
+          h2.header2 Contacts and location
+          h3.header3 Feel free to write, call and visit us. We really love to communicate with our clients.
+      .tpl-block-list-objects(data-object-number="4")
+        .contacts-object   
+          .contacts-info            
+            .contacts-header Say Hello
+            .contacts-about 
+              span +1 123 456 78 90
+              br
+              span hello@madeontilda.com
+        .contacts-object   
+          .contacts-info            
+            .contacts-header New Business
+            .contacts-about 
+              span +1 123 456 78 90
+              br
+              span hello@madeontilda.com
+        .contacts-object   
+          .contacts-info            
+            .contacts-header Work With Us
+            .contacts-about 
+              span +1 123 456 78 90
+              br
+              span hello@madeontilda.com
+        .contacts-object   
+          .contacts-info            
+            .contacts-header Our Location
+            .contacts-about Loft Pineapple, 22 New Green Street, New York
+    
+    script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js")
+    script(src="../../css-element-queries/ResizeSensor.js")
+    script(src="../../css-element-queries/ElementQueries.js")
+
+

@@ -1,13 +1,6 @@
 
 
-.tmp-template-contacts-personal.tmp_photo_round {
-  .tpl-block-list-objects {
-    .contacts-image {
-      border-radius: 50%;
-    }
-  }
-}
-.tmp-template-contacts-personal.tmp_align_center {
+.tmp-template-corp-tiles.tmp_align_center {
   .tpl-block-list-objects {
     .contacts-object {
       align-items: center;
@@ -17,7 +10,7 @@
 }
 
 
-.tmp-template-contacts-personal.tmp_align_left {
+.tmp-template-corp-tiles.tmp_align_left {
   .tpl-block-list-objects {
     .contacts-object {
       text-align: left;
@@ -26,7 +19,7 @@
 }
 
 
-.tmp-template-contacts-personal.tmp_align_right {
+.tmp-template-corp-tiles.tmp_align_right {
   .tpl-block-list-objects {
     .contacts-object {
       text-align: right;

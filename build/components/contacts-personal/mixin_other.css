@@ -7,3 +7,6 @@
 
 .tmp-template-contacts-personal.tmp_align_left .tpl-block-list-objects .contacts-object {
   text-align: left; }
+
+.tmp-template-contacts-personal.tmp_align_right .tpl-block-list-objects .contacts-object {
+  text-align: right; }
