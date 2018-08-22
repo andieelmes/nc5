@@ -1,0 +1,10 @@
+.tmp-template-corp-map.mixin-layout-tiles_3 .tpl-block-list-objects {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1200px; }
+
+.tmp-template-corp-map.mixin-layout-tiles_3 .contacts-object:not(.contacts-map) {
+  width: 32%;
+  min-width: 320px; }

@@ -1,0 +1,7 @@
+.tmp-template-corp-map.mixin-layout-column .tpl-block-list-objects {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1200px;
+  align-items: center; }

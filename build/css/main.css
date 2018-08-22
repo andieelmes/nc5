@@ -1965,6 +1965,195 @@ h3 {
 .tmp-template-corp-tiles.tmp_align_right .tpl-block-list-objects .contacts-object {
   text-align: right; }
 
+.tmp-template-corp-map {
+  margin: 0 auto;
+  padding: 100px 20px;
+  background-color: var(--tpl-color-background-main); }
+  .tmp-template-corp-map .contacts-prefix {
+    max-width: 560px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 70px;
+    text-align: center; }
+  .tmp-template-corp-map .tpl-block-list-objects {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+    .tmp-template-corp-map .tpl-block-list-objects .contacts-object:not(.contacts-map) {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      padding: 30px 40px;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      max-width: 310px;
+      min-width: 310px; }
+    .tmp-template-corp-map .tpl-block-list-objects .contacts-image {
+      margin-bottom: 30px; }
+    .tmp-template-corp-map .tpl-block-list-objects .contacts-header {
+      font-family: var(--tpl-font-family-common);
+      font-size: 24px;
+      line-height: 1.35;
+      font-weight: 600; }
+      .tmp-template-corp-map .tpl-block-list-objects .contacts-header + .contacts-about {
+        margin-top: 20px; }
+    .tmp-template-corp-map .tpl-block-list-objects .contacts-about {
+      font-family: var(--tpl-font-family-common);
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 1.55; }
+    .tmp-template-corp-map .tpl-block-list-objects .contacts-socials {
+      margin-top: 45px; }
+    .tmp-template-corp-map .tpl-block-list-objects .contacts-social {
+      margin: 0 4px; }
+    .tmp-template-corp-map .tpl-block-list-objects .contacts-map {
+      -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+      box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      min-width: 400px;
+      max-width: 100%; }
+
+.tmp-template-corp-map.mixin-layout-tiles_3 .tpl-block-list-objects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  max-width: 1200px; }
+
+.tmp-template-corp-map.mixin-layout-tiles_3 .contacts-object:not(.contacts-map) {
+  width: 32%;
+  min-width: 320px; }
+
+.tmp-template-corp-map.mixin-layout-tiles_4 .tpl-block-list-objects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  max-width: 1200px; }
+
+.tmp-template-corp-map.mixin-layout-tiles_4 .contacts-object:not(.contacts-map) {
+  width: 24%;
+  min-width: 300px; }
+
+.tmp-template-corp-map.mixin-layout-column .tpl-block-list-objects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  max-width: 1200px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.tmp-template-corp-map.tmp_align_center .tpl-block-list-objects .contacts-object {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center; }
+
+.tmp-template-corp-map.tmp_align_left .tpl-block-list-objects .contacts-object {
+  text-align: left; }
+
+.tmp-template-corp-map.tmp_column_left .tpl-block-list-objects .contacts-object {
+  margin-left: 0;
+  margin-right: 0; }
+
+.tmp-template-corp-map.tmp_align_right .tpl-block-list-objects .contacts-object {
+  text-align: right; }
+
+.tmp-template-corp-map.tmp_info_left_map .tpl-block-list-objects {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  .tmp-template-corp-map.tmp_info_left_map .tpl-block-list-objects .contacts-object {
+    width: 35%;
+    max-width: 100%; }
+  .tmp-template-corp-map.tmp_info_left_map .tpl-block-list-objects .contacts-map {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 660px; }
+
+.tmp-template-corp-map.tmp_info_right_map .tpl-block-list-objects {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  .tmp-template-corp-map.tmp_info_right_map .tpl-block-list-objects .contacts-object {
+    width: 35%;
+    max-width: 100%; }
+  .tmp-template-corp-map.tmp_info_right_map .tpl-block-list-objects .contacts-map {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 660px;
+    -webkit-box-ordinal-group: 0;
+    -ms-flex-order: -1;
+    order: -1; }
+
+.tmp-template-corp-map.tmp_info_left_inside_map .tpl-block-list-objects {
+  position: relative; }
+  .tmp-template-corp-map.tmp_info_left_inside_map .tpl-block-list-objects .contacts-object {
+    position: absolute;
+    left: 0;
+    top: 120px;
+    background-color: white;
+    padding: 40px 60px;
+    max-width: 100%; }
+
+.tmp-template-corp-map.tmp_info_right_inside_map .tpl-block-list-objects {
+  position: relative; }
+  .tmp-template-corp-map.tmp_info_right_inside_map .tpl-block-list-objects .contacts-object {
+    position: absolute;
+    right: 0;
+    top: 120px;
+    background-color: white;
+    padding: 40px 60px;
+    max-width: 100%; }
+
+.tmp-template-corp-map[max-width~="800px"].tmp_info_right_inside_map .tpl-block-list-objects .contacts-object,
+.tmp-template-corp-map[max-width~="800px"].tmp_info_right_inside_map .tpl-block-list-objects .contacts-object {
+  position: relative;
+  left: auto;
+  right: auto;
+  top: auto; }
+
 .tmp-template-partners {
   margin: 0 auto;
   padding: 100px 20px;

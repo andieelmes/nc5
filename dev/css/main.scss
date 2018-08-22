@@ -75,6 +75,14 @@
 @import "../components/contacts-corp-tiles/adaptive";
 
 
+@import "../components/contacts-corp-map/block";
+@import "../components/contacts-corp-map/mixin_layout_tiles_3";
+@import "../components/contacts-corp-map/mixin_layout_tiles_4";
+@import "../components/contacts-corp-map/mixin_layout_column";
+@import "../components/contacts-corp-map/mixin_other";
+@import "../components/contacts-corp-map/adaptive";
+
+
 
 @import "../components/partners/block";
 @import "../components/partners/mixin_other";

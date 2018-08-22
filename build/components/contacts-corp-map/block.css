@@ -1,0 +1,45 @@
+.tmp-template-corp-map {
+  margin: 0 auto;
+  padding: 100px 20px;
+  background-color: var(--tpl-color-background-main); }
+  .tmp-template-corp-map .contacts-prefix {
+    max-width: 560px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 70px;
+    text-align: center; }
+  .tmp-template-corp-map .tpl-block-list-objects {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap; }
+    .tmp-template-corp-map .tpl-block-list-objects .contacts-object:not(.contacts-map) {
+      display: flex;
+      padding: 30px 40px;
+      flex-direction: column;
+      max-width: 310px;
+      min-width: 310px; }
+    .tmp-template-corp-map .tpl-block-list-objects .contacts-image {
+      margin-bottom: 30px; }
+    .tmp-template-corp-map .tpl-block-list-objects .contacts-header {
+      font-family: var(--tpl-font-family-common);
+      font-size: 24px;
+      line-height: 1.35;
+      font-weight: 600; }
+      .tmp-template-corp-map .tpl-block-list-objects .contacts-header + .contacts-about {
+        margin-top: 20px; }
+    .tmp-template-corp-map .tpl-block-list-objects .contacts-about {
+      font-family: var(--tpl-font-family-common);
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 1.55; }
+    .tmp-template-corp-map .tpl-block-list-objects .contacts-socials {
+      margin-top: 45px; }
+    .tmp-template-corp-map .tpl-block-list-objects .contacts-social {
+      margin: 0 4px; }
+    .tmp-template-corp-map .tpl-block-list-objects .contacts-map {
+      box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      min-width: 400px;
+      max-width: 100%; }

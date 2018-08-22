@@ -1,0 +1,6 @@
+.tmp-template-corp-map[max-width~="800px"].tmp_info_right_inside_map .tpl-block-list-objects .contacts-object,
+.tmp-template-corp-map[max-width~="800px"].tmp_info_right_inside_map .tpl-block-list-objects .contacts-object {
+  position: relative;
+  left: auto;
+  right: auto;
+  top: auto; }
