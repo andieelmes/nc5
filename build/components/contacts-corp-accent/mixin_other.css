@@ -1,0 +1,23 @@
+.tmp-template-corp-accent.tmp_align_center .tpl-block-list-objects .contacts-object {
+  align-items: center;
+  text-align: center; }
+
+.tmp-template-corp-accent.tmp_align_left .tpl-block-list-objects .contacts-object {
+  text-align: left; }
+
+.tmp-template-corp-accent.tmp_align_right .tpl-block-list-objects .contacts-object {
+  text-align: right; }
+
+.tmp-template-corp-accent.tmp_accent_sepatator .tpl-block-list-objects .contacts-accent {
+  position: relative;
+  padding-bottom: 45px; }
+  .tmp-template-corp-accent.tmp_accent_sepatator .tpl-block-list-objects .contacts-accent:after {
+    width: 100px;
+    height: 1px;
+    background-color: black;
+    content: "";
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    position: absolute; }

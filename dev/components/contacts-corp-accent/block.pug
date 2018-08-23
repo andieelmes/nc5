@@ -1,0 +1,65 @@
+doctype html
+html(lang="en")
+  head
+    title Contacts Accent
+    link(href="https://fonts.googleapis.com/css?family=Roboto:300,400,600,700&amp;subset=cyrillic-ext" rel="stylesheet")
+    link(rel="stylesheet" type="text/css" href="../../css/main.css?v1")
+    meta(charset="UTF-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0")
+  body
+    p contacts accent 
+    section.tmp-template-corp-accent#1.tmp_align_center
+      .tpl-block-list-objects(data-object-number="1")
+        .contacts-object  
+          .contacts-accent 
+            .contacts-item +1 123 456 78 90
+            .contacts-item hello@madeontilda.com
+          .contacts-items
+            .contacts-item Loft Pineapple, 22 Pink Street, New York
+          .contacts-socials
+            a(href="#").contacts-social
+              include icons/fb.svg
+            a(href="#").contacts-social
+              include icons/tw.svg
+            a(href="#").contacts-social
+              include icons/insta.svg
+    p contacts accent with separator
+    section.tmp-template-corp-accent#1.tmp_align_center.tmp_accent_sepatator
+      .tpl-block-list-objects(data-object-number="1")
+        .contacts-object  
+          .contacts-accent 
+            .contacts-item Loft Pineapple, 22 Pink Street        
+          .contacts-items
+            .contacts-item hello@madeontilda.com
+            .contacts-item +1 123 456 78 90    
+          .contacts-socials
+            a(href="#").contacts-social
+              include icons/fb.svg
+            a(href="#").contacts-social
+              include icons/tw.svg
+            a(href="#").contacts-social
+              include icons/insta.svg
+    p contacts accent with separator
+    section.tmp-template-corp-accent#1.tmp_align_center.tmp_accent_sepatator
+      .tpl-block-list-objects(data-object-number="1")
+        .contacts-object  
+          .contacts-accent 
+            a(href="#").contacts-social
+              include icons/fb.svg
+            a(href="#").contacts-social
+              include icons/tw.svg
+            a(href="#").contacts-social
+              include icons/insta.svg 
+          .contacts-info
+            .contacts-header Feel free to write, call and visit us. We really love to communicate with our clients.
+          .contacts-items
+            .contacts-item Loft Pineapple, 22 Pink Street 
+            .contacts-item hello@madeontilda.com
+            .contacts-item +1 123 456 78 90    
+  
+    
+    script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js")
+    script(src="../../css-element-queries/ResizeSensor.js")
+    script(src="../../css-element-queries/ElementQueries.js")
+
+

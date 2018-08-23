@@ -1,10 +1,10 @@
-.tmp-template-corp-tiles.mixin-layout-tiles_4 .tpl-block-list-objects {
+.tmp-template-corp-accent.mixin-layout-tiles_4 .tpl-block-list-objects {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   max-width: 1200px; }
 
-.tmp-template-corp-tiles.mixin-layout-tiles_4 .contacts-object {
+.tmp-template-corp-accent.mixin-layout-tiles_4 .contacts-object {
   width: 24%;
   min-width: 300px; }
